@@ -2,7 +2,7 @@
   "data": {
       "user": {
           "name": "Josh Davis",
-          "bio": "Currently a senior leader in the FinTech space, I grew up over the last 20+ years working back end systems in IT, now specializing in DevOps and Developer Experience under the Platform group. I have a record of improving everything I touch by not letting perfect get in the way of progress.",
+          "bio": "Currently a senior leader in the FinTech space, I grew up over the last 20+ years working back end systems in IT, now specializing in DevOps and Developer Experience under the Platform group. I have a record of improving everything I touch by not letting perfect get in the way of progress.\r\n",
           "avatarUrl": "https://www.linkedin.com/in/josh-davis101/", 
           "location": "Carleton, MI", 
           "pinnedItems": {
@@ -18,7 +18,8 @@
                           },
                           "url": "https://www.linkedin.com/in/josh-davis101/", 
                           "id": "Skill1", 
-                          "diskUsage": 0 
+                          "diskUsage": 0,
+                          "primaryLanguage": null 
                       }
                   },
                   {
@@ -31,7 +32,8 @@
                           },
                           "url": "https://www.linkedin.com/in/josh-davis101/",
                           "id": "Skill2",
-                          "diskUsage": 0
+                          "diskUsage": 0,
+                          "primaryLanguage": null 
                       }
                   },
                   {
@@ -44,7 +46,8 @@
                           },
                           "url": "https://www.linkedin.com/in/josh-davis101/",
                           "id": "Skill3",
-                          "diskUsage": 0
+                          "diskUsage": 0,
+                          "primaryLanguage": null 
                       }
                   },
                   {
@@ -57,7 +60,8 @@
                           },
                           "url": "https://www.linkedin.com/in/josh-davis101/",
                           "id": "Skill4",
-                          "diskUsage": 0
+                          "diskUsage": 0,
+                          "primaryLanguage": null 
                       }
                   }
               ]
