@@ -1,0 +1,61 @@
+{
+    "basics": {
+      "name": "Josh Davis",
+      "label": "Director of Platform Engineering", // Adjust as needed based on target role
+      "summary": "Experienced IT leader passionate about driving developer productivity, optimizing cloud infrastructure, and fostering a culture of continuous improvement.", 
+      "location": {
+        "country": "US"
+      }
+      // No image or direct social links found on resume, consider adding if available
+    },
+    "skills": [
+      {
+        "name": "Leadership & Management",
+        "level": "Expert", 
+        "keywords": ["Team Leadership", "Mentoring", "Conflict Resolution", "Performance Management"]
+      },
+      {
+        "name": "Developer Productivity & Experience",
+        "level": "Expert",
+        "keywords": ["GitOps", "Service Mesh", "Developer Portal", "CI/CD"]
+      },
+      {
+        "name": "Cloud Technologies & DevOps",
+        "level": "Expert",
+        "keywords": ["AWS", "Azure", "Terraform", "Ansible", "Kubernetes", "Docker"]
+      },
+      {
+        "name": "Process Optimization & Efficiency",
+        "level": "Expert",
+        "keywords": ["Bottleneck Analysis", "Process Improvement", "Cost Reduction"]
+      },
+      {
+        "name": "Observability & Monitoring",
+        "level": "Expert",
+        "keywords": ["Dynatrace", "Splunk", "Datadog", "New Relic"]
+      }
+      // Add any other relevant skills from your resume
+    ],
+    "work": [ 
+      // Include your work experience here, following the JSON resume format
+      // Example:
+      {
+        "company": "Credit Acceptance", 
+        "position": "Senior Manager, Developer Productivity Engineering",
+        "startDate": "2022-01-01",
+        "endDate": "Present", 
+        "summary": "Led a team of 40+ engineers across DevEx, DevOps, DBRE, and Identity functions. Achieved a 20% improvement in developer productivity in 2024.",
+        "highlights": [
+          "Migrated to GitOps for improved collaboration and deployment efficiency.",
+          "Implemented a service mesh to enhance microservices communication and observability.",
+          "Created an internal developer portal to streamline access to tools and resources.",
+          "Optimized cloud infrastructure on AWS and Azure, reducing costs by 15%.",
+          "Implemented robust CI/CD pipelines and observability solutions."
+        ]
+      }
+      // Add more work experience entries as needed
+    ],
+    "projects": [
+      // If you have any personal projects you want to highlight, include them here
+    ]
+  }
