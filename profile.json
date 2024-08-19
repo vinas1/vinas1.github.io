@@ -1,61 +1,67 @@
 {
-    "basics": {
-      "name": "Josh Davis",
-      "label": "Director of Platform Engineering", // Adjust as needed based on target role
-      "summary": "Experienced IT leader passionate about driving developer productivity, optimizing cloud infrastructure, and fostering a culture of continuous improvement.", 
-      "location": {
-        "country": "US"
+  "data": {
+      "user": {
+          "name": "Josh Davis",
+          "bio": "Currently a senior leader in the FinTech space, I grew up over the last 20+ years working back end systems in IT, now specializing in DevOps and Developer Experience under the Platform group. I have a record of improving everything I touch by not letting perfect get in the way of progress.",
+          "avatarUrl": "https://www.linkedin.com/in/josh-davis101/", 
+          "location": "Carleton, MI", 
+          "pinnedItems": {
+              "totalCount": 4,
+              "edges": [
+                  {
+                      "node": {
+                          "name": "Developer Productivity & Operations",
+                          "description": "Expert in implementing a vision to enhance developer happiness by reducing friction.",
+                          "forkCount": 0, 
+                          "stargazers": {
+                              "totalCount": 0 
+                          },
+                          "url": "https://www.linkedin.com/in/josh-davis101/", 
+                          "id": "Skill1", 
+                          "diskUsage": 0 
+                      }
+                  },
+                  {
+                      "node": {
+                          "name": "People Leadership & Development",
+                          "description": "Proven success in building and leading cross-functional teams (40+ engineers), fostering collaboration, and empowering team members to achieve their full potential.",
+                          "forkCount": 0,
+                          "stargazers": {
+                              "totalCount": 0
+                          },
+                          "url": "https://www.linkedin.com/in/josh-davis101/",
+                          "id": "Skill2",
+                          "diskUsage": 0
+                      }
+                  },
+                  {
+                      "node": {
+                          "name": "Process Optimization & Efficiency",
+                          "description": "Experienced in identifying bottlenecks, creating new processes, and driving continuous improvement initiatives to enhance operational efficiency and reduce costs (e.g., migration from Oracle on-prem to AWS cloud-based alternatives).",
+                          "forkCount": 0,
+                          "stargazers": {
+                              "totalCount": 0
+                          },
+                          "url": "https://www.linkedin.com/in/josh-davis101/",
+                          "id": "Skill3",
+                          "diskUsage": 0
+                      }
+                  },
+                  {
+                      "node": {
+                          "name": "Cloud Technologies & DevOps",
+                          "description": "Deep understanding of cloud platforms like AWS cognito, EC2, S3, EKS, Fargate, Lambda, Secrets Manager, and Parameter Store. Skilled with GitOps specifically expertised in implementing secure code repos and reusable workflows in CI/CD pipelines, Azure API management gateway, and Microsoft Entra ID (formerly Azure Active Directory). Experienced using ArgoCD, terraform, and Python for code migrations and infrastructure automation, and Dynatrace + Splunk for observability solutions in production systems.",
+                          "forkCount": 0,
+                          "stargazers": {
+                              "totalCount": 0
+                          },
+                          "url": "https://www.linkedin.com/in/josh-davis101/",
+                          "id": "Skill4",
+                          "diskUsage": 0
+                      }
+                  }
+              ]
+          }
       }
-      // No image or direct social links found on resume, consider adding if available
-    },
-    "skills": [
-      {
-        "name": "Leadership & Management",
-        "level": "Expert", 
-        "keywords": ["Team Leadership", "Mentoring", "Conflict Resolution", "Performance Management"]
-      },
-      {
-        "name": "Developer Productivity & Experience",
-        "level": "Expert",
-        "keywords": ["GitOps", "Service Mesh", "Developer Portal", "CI/CD"]
-      },
-      {
-        "name": "Cloud Technologies & DevOps",
-        "level": "Expert",
-        "keywords": ["AWS", "Azure", "Terraform", "Ansible", "Kubernetes", "Docker"]
-      },
-      {
-        "name": "Process Optimization & Efficiency",
-        "level": "Expert",
-        "keywords": ["Bottleneck Analysis", "Process Improvement", "Cost Reduction"]
-      },
-      {
-        "name": "Observability & Monitoring",
-        "level": "Expert",
-        "keywords": ["Dynatrace", "Splunk", "Datadog", "New Relic"]
-      }
-      // Add any other relevant skills from your resume
-    ],
-    "work": [ 
-      // Include your work experience here, following the JSON resume format
-      // Example:
-      {
-        "company": "Credit Acceptance", 
-        "position": "Senior Manager, Developer Productivity Engineering",
-        "startDate": "2022-01-01",
-        "endDate": "Present", 
-        "summary": "Led a team of 40+ engineers across DevEx, DevOps, DBRE, and Identity functions. Achieved a 20% improvement in developer productivity in 2024.",
-        "highlights": [
-          "Migrated to GitOps for improved collaboration and deployment efficiency.",
-          "Implemented a service mesh to enhance microservices communication and observability.",
-          "Created an internal developer portal to streamline access to tools and resources.",
-          "Optimized cloud infrastructure on AWS and Azure, reducing costs by 15%.",
-          "Implemented robust CI/CD pipelines and observability solutions."
-        ]
-      }
-      // Add more work experience entries as needed
-    ],
-    "projects": [
-      // If you have any personal projects you want to highlight, include them here
-    ]
   }
+}
