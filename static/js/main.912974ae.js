@@ -295,7 +295,7 @@
                             {
                                 role: "Senior Manager, Developer Productivity Engineering",
                                 company: "Credit Acceptance",
-                                companylogo: "https://www.creditacceptance.com/assets/images/header/CA_Logo.svg", // Find and replace with the company's logo import
+                                imageUrl: "https://media.licdn.com/dms/image/v2/D4D0BAQF2EJS3HOEUZg/company-logo_200_200/company-logo_200_200/0/1683215071623/credit_acceptance_logo?e=2147483647&v=beta&t=AyLnM78EuPuCICAnXrabln5P5zdAqU0uh12Q37VGKhI", // Find and replace with the company's logo import
                                 date: "Feb 2024 - Present",
                                 desc: "Leading teams in DevEx, DevOps, DBRE, and Identity to enhance developer experience, drive automation, and modernize CI/CD pipelines. Also upskilling DBA team members in cloud-native technologies.",
                                 descBullets: [] 
