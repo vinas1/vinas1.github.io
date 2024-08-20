@@ -11181,6 +11181,7 @@
                                                 break t;
                                             case 3:
                                                 y.effectTag = -4097 & y.effectTag | 64;
+                                                break t;
                                             case 0:
                                                 if (null === (s = "function" === typeof (y = x.payload) ? y.call(m, c, s) : y) || void 0 === s) break t;
                                                 c = a({}, c, s);
