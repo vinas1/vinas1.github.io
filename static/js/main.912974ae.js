@@ -201,15 +201,15 @@
                     _ = {
                         username: "Josh Davis",
                         title: "Hi all, I'm Josh",
-                        subTitle: "SSenior Manager in FinTech, specializing in DevOps and Developer Experience. I turn visions into reality, optimizing tech and empowering teams for growth.", 
+                        subTitle: "Senior Manager in FinTech, specializing in DevOps and Developer Experience. I turn visions into reality, optimizing tech and empowering teams for growth.", 
                         resumeLink: "https://www.linkedin.com/in/josh-davis101/", // Assuming you want to link to your LinkedIn
                         displayGreeting: !0
                     },
                     T = {
                         linkedin: "https://www.linkedin.com/in/josh-davis101/", 
-                        github: "https://vinas1.github.io", // Update with your actual GitHub URL if available
+                        github: "https://github.com/vinas1/", // Update with your actual GitHub URL if available
                         stackoverflow: "https://stackoverflow.com/users/13636845/vinas", // Remove or update if you have a Stack Overflow
-                        email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com", // Replace with your actual email address image URL
+                        email_address: "vinas03@yahoo.com", // Replace with your actual email address image URL
                         display: !0
                     },
                     M = {
@@ -244,7 +244,7 @@
                         schools: [
                             {
                                 schoolName: "Monroe County Community College",
-                                logo: "https://www.monroeccc.edu/sites/default/files/mccc_logo_angle.svg", // Find and replace with the school's logo import
+                                imageUrl: "https://www.monroeccc.edu/sites/default/files/mccc_logo_angle.svg", // Find and replace with the school's logo import
                                 subHeader: "Associate's in Electronics and Computer Information Systems",
                                 duration: "2012",
                                 desc: "Relevant Coursework",
