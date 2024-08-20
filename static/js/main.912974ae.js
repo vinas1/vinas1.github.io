@@ -209,7 +209,7 @@
                         linkedin: "https://www.linkedin.com/in/josh-davis101/", 
                         github: "https://vinas1.github.io", // Update with your actual GitHub URL if available
                         stackoverflow: "https://stackoverflow.com/users/13636845/vinas", // Remove or update if you have a Stack Overflow
-                        email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com" // Replace with your actual email address image URL
+                        email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com", // Replace with your actual email address image URL
                         display: !0
                     },
                     M = {
