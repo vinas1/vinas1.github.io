@@ -203,14 +203,14 @@
                         title: "Hi all, I'm Josh",
                         subTitle: "SSenior Manager in FinTech, specializing in DevOps and Developer Experience. I turn visions into reality, optimizing tech and empowering teams for growth.", 
                         resumeLink: "https://www.linkedin.com/in/josh-davis101/", 
-                        displayGreeting: true
+                        displayGreeting: !0
                     },
                     {
                         linkedin: "https://www.linkedin.com/in/josh-davis101/", 
                         github: "https://vinas1.github.io", // Update with your actual GitHub URL if available
                         stackoverflow: "https://stackoverflow.com/users/13636845/vinas",
                         email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com" // Replace with your actual email address image URL
-                        display: true
+                        display: !0
                     },
                     {
                         title: "What I do",
@@ -236,10 +236,10 @@
                             { skillName: "Docker", skillIcon: "devicon-docker-plain-wordmark colored" }, 
                             { skillName: "Oracle", skillIcon: "devicon-oracle-original colored" } 
                         ],
-                        display: true
+                        display: !0
                     },
                     {
-                        display: true,
+                        display: !0,
                         title: "Education \ud83c\udf93 ",
                         schools: [
                             {
@@ -261,7 +261,7 @@
                         ]
                     },
                     {
-                        viewSkillBars: true,
+                        viewSkillBars: !0,
                         title: "Skills \ud83d\udc68\u200d\ud83d\udcbb ",
                         categories: {
                             DevOps: [
@@ -287,10 +287,10 @@
                                 { skillName: "Database Reliability Engineering", progressPercentage: "80%", imageUrl: "https://www.oreilly.com/library/view/database-reliability/9781492044412/assets/cover.png" }
                             ]
                         },
-                        displayCodersrank: true 
+                        displayCodersrank: !0 
                     },
                     {
-                        display: true,
+                        display: !0,
                         experience: [
                             {
                                 role: "Senior Manager, Developer Productivity Engineering",
@@ -320,7 +320,7 @@
                     },
                     {
                         showGithubProfile: "true",
-                        display: true
+                        display: !0
                     },
                     {
                         title: "Certifications \ud83c\udfc6 ",
@@ -350,7 +350,7 @@
                             footerLink: []
                           }
                         ],
-                        display: true
+                        display: !0
                       },
                     L = {
                         title: a()("Contact Me \u260e\ufe0f"),
