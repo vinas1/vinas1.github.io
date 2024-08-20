@@ -202,13 +202,13 @@
                         username: "Josh Davis",
                         title: "Hi all, I'm Josh",
                         subTitle: "SSenior Manager in FinTech, specializing in DevOps and Developer Experience. I turn visions into reality, optimizing tech and empowering teams for growth.", 
-                        resumeLink: "https://www.linkedin.com/in/josh-davis101/", 
+                        resumeLink: "https://www.linkedin.com/in/josh-davis101/", // Assuming you want to link to your LinkedIn
                         displayGreeting: !0
                     },
                     T = {
                         linkedin: "https://www.linkedin.com/in/josh-davis101/", 
                         github: "https://vinas1.github.io", // Update with your actual GitHub URL if available
-                        stackoverflow: "https://stackoverflow.com/users/13636845/vinas",
+                        stackoverflow: "https://stackoverflow.com/users/13636845/vinas", // Remove or update if you have a Stack Overflow
                         email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com" // Replace with your actual email address image URL
                         display: !0
                     },
@@ -216,15 +216,15 @@
                         title: "What I do",
                         subTitle: "I lead teams to enhance developer productivity, optimize processes, and leverage cloud technologies for business growth. I'm passionate about mentoring and empowering engineers to reach their full potential.",
                         skills: [
-                            "\u26a1 Developer Productivity & Operations",
-                            "\u26a1 People Leadership & Development",
-                            "\u26a1 Process Optimization & Efficiency",
-                            "\u26a1 Cloud Technologies & DevOps",
-                            "\u26a1 Identity Management & Security",
-                            "\u26a1 Database Reliability Engineering (DBRE)"
+                            a()("\u26a1 Developer Productivity & Operations"),
+                            a()("\u26a1 People Leadership & Development"),
+                            a()("\u26a1 Process Optimization & Efficiency"),
+                            a()("\u26a1 Cloud Technologies & DevOps"),
+                            a()("\u26a1 Identity Management & Security"),
+                            a()("\u26a1 Database Reliability Engineering (DBRE)"),
                         ],
                         softwareSkills: [
-                            { skillName: "AWS", skillIcon: "devicon-amazonwebservices-original-wordmark colored" }, 
+                            { skillName: "AWS", skillIcon: "devicon-amazonwebservices-original-wordmark colored" }, // Update with relevant skills and icons
                             { skillName: "GitOps", skillIcon: "devicon-git-plain colored" }, 
                             { skillName: "Terraform", skillIcon: "devicon-terraform-plain colored" },
                             { skillName: "Python", skillIcon: "devicon-python-plain-wordmark colored" },
