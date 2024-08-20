@@ -197,7 +197,7 @@
                     },
                     C = {
                         animated: !0
-                    },
+                    };
                     const _ = {
                         username: "Josh Davis",
                         title: "Hi all, I'm Josh",
