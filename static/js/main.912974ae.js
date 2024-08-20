@@ -410,8 +410,8 @@
                       const L = {
                         title: "Contact Me \u260e\ufe0f",
                         subtitle: "Open for new Opportunities",
-                        image: "https://via.placeholder.com/150x50.png?text=734-819-9228", 
-                        email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com" 
+                        number: "", 
+                        email_address: "vinas03@yahoo.com" 
                       };
                     R = !0
             },
