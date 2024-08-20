@@ -303,7 +303,7 @@
                             {
                                 role: "Senior Manager, DevOps",
                                 company: "Credit Acceptance",
-                                companylogo: "", 
+                                companylogo: "https://www.creditacceptance.com/assets/images/header/CA_Logo.svg", 
                                 date: "Feb 2023 - Feb 2024",
                                 desc: "Implemented APM and observability, led CI/CD and infrastructure automation, improving development velocity and operational efficiency.",
                                 descBullets: [] 
@@ -311,7 +311,7 @@
                             {
                                 role: "Senior Manager, IT Operations",
                                 company: "Credit Acceptance",
-                                companylogo: "", 
+                                companylogo: "https://www.creditacceptance.com/assets/images/header/CA_Logo.svg", 
                                 date: "Jul 2020 - Feb 2023",
                                 desc: "Led a 30-person team, implemented and optimized middleware solutions, managed identity and access systems, and drove DevOps adoption.",
                                 descBullets: [] 
