@@ -202,218 +202,295 @@
                         username: "Josh Davis",
                         title: "Hi all, I'm Josh",
                         subTitle: "Senior Manager in FinTech, specializing in DevOps and Developer Experience. I turn visions into reality, optimizing tech and empowering teams for growth.",
-                        resumeLink: "https://www.linkedin.com/in/josh-davis101/", 
+                        resumeLink: "https://www.linkedin.com/in/josh-davis101/",
                         displayGreeting: true
-                      };
-                      
-                      const T = {
-                        linkedin: "https://www.linkedin.com/in/josh-davis101/", 
-                        github: "https://vinas1.github.io", 
-                        stackoverflow: null, 
-                        gmail: "vinas1@gmail.com", 
-                        display: true
-                      };
-                      
-                      const M = {
-                        title: "What I do",
-                        subTitle: "I lead teams to enhance developer productivity, optimize processes, and leverage cloud technologies for business growth. I'm passionate about mentoring and empowering engineers to reach their full potential.",
-                        skills: [
-                          "\u26a1 Developer Productivity & Operations",
-                          "\u26a1 People Leadership & Development",
-                          "\u26a1 Process Optimization & Efficiency",
-                          "\u26a1 Cloud Technologies & DevOps",
-                          "\u26a1 Identity Management & Security",
-                          "\u26a1 Database Reliability Engineering (DBRE)"
-                        ],
-                        softwareSkills: [
-                          { skillName: "AWS", skillIcon: "devicon-amazonwebservices-original-wordmark colored" }, 
-                          { skillName: "GitOps", skillIcon: "devicon-git-plain colored" }, 
-                          { skillName: "Terraform", skillIcon: "devicon-terraform-plain colored" },
-                          { skillName: "Python", skillIcon: "devicon-python-plain-wordmark colored" },
-                          { skillName: "ArgoCD", skillIcon: "devicon-kubernetes-plain colored" }, 
-                          { skillName: "Ansible", skillIcon: "devicon-ansible-plain colored" }, 
-                          { skillName: "Dynatrace", skillIcon: "devicon-dynatrace-plain colored" }, 
-                          { skillName: "Splunk", skillIcon: "devicon-splunk-original-wordmark colored" }, 
-                          { skillName: "Azure", skillIcon: "devicon-azure-plain-wordmark colored" }, 
-                          { skillName: "Docker", skillIcon: "devicon-docker-plain-wordmark colored" }, 
-                          { skillName: "Oracle", skillIcon: "devicon-oracle-original colored" } 
-                        ],
-                        display: true
-                      };
-                      
-                      const F = {
-                        display: true,
-                        title: "Education \ud83c\udf93 ",
-                        schools: [
-                          {
-                            schoolName: "Monroe County Community College",
-                            logo: "", // Find and replace with the school's logo import
-                            subHeader: "Associate's in Electronics and Computer Information Systems",
-                            duration: "2012",
-                            desc: "Relevant Coursework",
-                            descBullets: [
-                              "Visual Basic",
-                              "UI Design",
-                              "Intro to Java",
-                              "Windows and Linux Administration",
-                              "Core Networking",
-                              "Applied Circuit Logic",
-                              "High Reliability Soldering"
-                            ]
-                          }
-                        ]
-                      };
-                      
-                      const V = {
-                        viewSkillBars: true,
-                        title: "Skills \ud83d\udc68\u200d\ud83d\udcbb ",
-                        categories: {
-                          DevOps: [
-                            { skillName: "AWS", progressPercentage: "90%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
-                            { skillName: "GitOps", progressPercentage: "85%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" },
-                            { skillName: "Terraform", progressPercentage: "80%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-plain.svg" },
-                            { skillName: "Python", progressPercentage: "75%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-                            { skillName: "CI/CD", progressPercentage: "90%", imageUrl: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" }, 
-                            { skillName: "ArgoCD", progressPercentage: "85%", imageUrl: "https://argoproj.github.io/argo-workflows/assets/argo.png" },
-                            { skillName: "Ansible", progressPercentage: "80%", imageUrl: "https://www.ansible.com/hubfs/2023_Red_Hat_Ansible_Automation_Platform_Logo_Color_RGB.svg" },
-                            { skillName: "Dynatrace", progressPercentage: "85%", imageUrl: "https://dynatrace.com/content/dam/dynatrace/images/homepage-hero/dynatrace-logo-white.svg" },
-                            { skillName: "Splunk", progressPercentage: "80%", imageUrl: "https://www.splunk.com/content/dam/splunk-blogs/images/2017/02/splunk-logo.png" }
-                          ],
-                          Cloud: [ 
-                            { skillName: "Azure", progressPercentage: "70%", imageUrl: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" },
-                            { skillName: "Docker", progressPercentage: "75%", imageUrl: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic-white.png" },
-                            { skillName: "Oracle", progressPercentage: "80%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" }
-                          ],
-                          Security: [
-                            { skillName: "Identity Management", progressPercentage: "85%", imageUrl: "https://w7.pngwing.com/pngs/948/54/png-transparent-computer-icons-identity-management-identity-and-access-management-user-access-identity-blue-angle-text.png" }
-                          ],
-                          Database: [
-                            { skillName: "Database Reliability Engineering", progressPercentage: "80%", imageUrl: "https://www.oreilly.com/library/view/database-reliability/9781492044412/assets/cover.png" }
-                          ]
+                    };
+
+                const T = {
+                    linkedin: "https://www.linkedin.com/in/josh-davis101/",
+                    github: "https://vinas1.github.io",
+                    stackoverflow: null,
+                    gmail: "vinas1@gmail.com",
+                    display: true
+                };
+
+                const M = {
+                    title: "What I do",
+                    subTitle: "I lead teams to enhance developer productivity, optimize processes, and leverage cloud technologies for business growth. I'm passionate about mentoring and empowering engineers to reach their full potential.",
+                    skills: [
+                        "\u26a1 Developer Productivity & Operations",
+                        "\u26a1 People Leadership & Development",
+                        "\u26a1 Process Optimization & Efficiency",
+                        "\u26a1 Cloud Technologies & DevOps",
+                        "\u26a1 Identity Management & Security",
+                        "\u26a1 Database Reliability Engineering (DBRE)"
+                    ],
+                    softwareSkills: [{
+                            skillName: "AWS",
+                            skillIcon: "devicon-amazonwebservices-original-wordmark colored"
                         },
-                        displayCodersrank: false 
-                      };
-                      
-                      const B = {
-                        display: true,
-                        experience: [
-                          {
+                        {
+                            skillName: "GitOps",
+                            skillIcon: "devicon-git-plain colored"
+                        },
+                        {
+                            skillName: "Terraform",
+                            skillIcon: "devicon-terraform-plain colored"
+                        },
+                        {
+                            skillName: "Python",
+                            skillIcon: "devicon-python-plain-wordmark colored"
+                        },
+                        {
+                            skillName: "ArgoCD",
+                            skillIcon: "devicon-kubernetes-plain colored"
+                        },
+                        {
+                            skillName: "Ansible",
+                            skillIcon: "devicon-ansible-plain colored"
+                        },
+                        {
+                            skillName: "Dynatrace",
+                            skillIcon: "devicon-dynatrace-plain colored"
+                        },
+                        {
+                            skillName: "Splunk",
+                            skillIcon: "devicon-splunk-original-wordmark colored"
+                        },
+                        {
+                            skillName: "Azure",
+                            skillIcon: "devicon-azure-plain-wordmark colored"
+                        },
+                        {
+                            skillName: "Docker",
+                            skillIcon: "devicon-docker-plain-wordmark colored"
+                        },
+                        {
+                            skillName: "Oracle",
+                            skillIcon: "devicon-oracle-original colored"
+                        }
+                    ],
+                    display: true
+                };
+
+                const F = {
+                    display: true,
+                    title: "Education \ud83c\udf93 ",
+                    schools: [{
+                        schoolName: "Monroe County Community College",
+                        logo: "", // Find and replace with the school's logo import
+                        subHeader: "Associate's in Electronics and Computer Information Systems",
+                        duration: "2012",
+                        desc: "Relevant Coursework",
+                        descBullets: [
+                            "Visual Basic",
+                            "UI Design",
+                            "Intro to Java",
+                            "Windows and Linux Administration",
+                            "Core Networking",
+                            "Applied Circuit Logic",
+                            "High Reliability Soldering"
+                        ]
+                    }]
+                };
+
+                const V = {
+                    viewSkillBars: true,
+                    title: "Skills \ud83d\udc68\u200d\ud83d\udcbb ",
+                    categories: {
+                        DevOps: [{
+                                skillName: "AWS",
+                                progressPercentage: "90%",
+                                imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                            },
+                            {
+                                skillName: "GitOps",
+                                progressPercentage: "85%",
+                                imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
+                            },
+                            {
+                                skillName: "Terraform",
+                                progressPercentage: "80%",
+                                imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-plain.svg"
+                            },
+                            {
+                                skillName: "Python",
+                                progressPercentage: "75%",
+                                imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            },
+                            {
+                                skillName: "CI/CD",
+                                progressPercentage: "90%",
+                                imageUrl: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+                            },
+                            {
+                                skillName: "ArgoCD",
+                                progressPercentage: "85%",
+                                imageUrl: "https://argoproj.github.io/argo-workflows/assets/argo.png"
+                            },
+                            {
+                                skillName: "Ansible",
+                                progressPercentage: "80%",
+                                imageUrl: "https://www.ansible.com/hubfs/2023_Red_Hat_Ansible_Automation_Platform_Logo_Color_RGB.svg"
+                            },
+                            {
+                                skillName: "Dynatrace",
+                                progressPercentage: "85%",
+                                imageUrl: "https://dynatrace.com/content/dam/dynatrace/images/homepage-hero/dynatrace-logo-white.svg"
+                            },
+                            {
+                                skillName: "Splunk",
+                                progressPercentage: "80%",
+                                imageUrl: "https://www.splunk.com/content/dam/splunk-blogs/images/2017/02/splunk-logo.png"
+                            }
+                        ],
+                        Cloud: [{
+                                skillName: "Azure",
+                                progressPercentage: "70%",
+                                imageUrl: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+                            },
+                            {
+                                skillName: "Docker",
+                                progressPercentage: "75%",
+                                imageUrl: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic-white.png"
+                            },
+                            {
+                                skillName: "Oracle",
+                                progressPercentage: "80%",
+                                imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
+                            }
+                        ],
+                        Security: [{
+                            skillName: "Identity Management",
+                            progressPercentage: "85%",
+                            imageUrl: "https://w7.pngwing.com/pngs/948/54/png-transparent-computer-icons-identity-management-identity-and-access-management-user-access-identity-blue-angle-text.png"
+                        }],
+                        Database: [{
+                            skillName: "Database Reliability Engineering",
+                            progressPercentage: "80%",
+                            imageUrl: "https://www.oreilly.com/library/view/database-reliability/9781492044412/assets/cover.png"
+                        }]
+                    },
+                    displayCodersrank: false
+                };
+
+                const B = {
+                    display: true,
+                    experience: [{
                             role: "Senior Manager, Developer Productivity Engineering",
                             company: "Credit Acceptance",
-                            companylogo: "", 
+                            companylogo: "",
                             date: "Feb 2024 - Present",
                             desc: "Leading teams in DevEx, DevOps, DBRE, and Identity to enhance developer experience, drive automation, and modernize CI/CD pipelines. Also upskilling DBA team members in cloud-native technologies.",
-                            descBullets: [] 
-                          },
-                          {
+                            descBullets: []
+                        },
+                        {
                             role: "Senior Manager, DevOps",
                             company: "Credit Acceptance",
-                            companylogo: "", 
+                            companylogo: "",
                             date: "Feb 2023 - Feb 2024",
                             desc: "Implemented APM and observability, led CI/CD and infrastructure automation, improving development velocity and operational efficiency.",
-                            descBullets: [] 
-                          },
-                          {
+                            descBullets: []
+                        },
+                        {
                             role: "Senior Manager, IT Operations",
                             company: "Credit Acceptance",
-                            companylogo: "", 
+                            companylogo: "",
                             date: "Jul 2020 - Feb 2023",
                             desc: "Led a 30-person team, implemented and optimized middleware solutions, managed identity and access systems, and drove DevOps adoption.",
-                            descBullets: [] 
-                          } 
-                        ]
-                      };
-                      
-                      const G = {
-                        showGithubProfile: "true",
-                        display: true
-                      };
-                      
-                      const I = {
-                        title: "Big Projects",
-                        projects: [
-                          {
+                            descBullets: []
+                        }
+                    ]
+                };
+
+                const G = {
+                    showGithubProfile: "true",
+                    display: true
+                };
+
+                const I = {
+                    title: "Big Projects",
+                    projects: [{
                             title: "Developer Productivity Transformation",
                             company: "Credit Acceptance",
                             companylogo: "", // Find and replace with the company's logo import
                             date: "2024",
                             desc: "Led the migration from Bitbucket, Jenkins, and XL Deploy to GitOps and ArgoCD, improving developer productivity by over 20%. Built reusable workflows, designed an Istio service mesh, and leveraged Ansible automation and Qodana static code analysis.",
                             descBullets: []
-                          },
-                          {
+                        },
+                        {
                             title: "Cloud Migration and Cost Optimization",
                             company: "Credit Acceptance",
-                            companylogo: "", 
+                            companylogo: "",
                             date: "2020 - 2023",
                             desc: "Migrated from on-prem Oracle to AWS cloud-based alternatives, reducing costs and improving operational efficiency. Also migrated WebLogic to Tomcat in Docker, further streamlining the infrastructure.",
                             descBullets: []
-                          },
-                          {
+                        },
+                        {
                             title: "APM and Observability Implementation",
                             company: "Credit Acceptance",
-                            companylogo: "", 
+                            companylogo: "",
                             date: "2023 - 2024",
                             desc: "Implemented Dynatrace and Splunk for real-time system insights, enabling proactive problem resolution and significantly reducing incident response times.",
                             descBullets: []
-                          },
-                          {
+                        },
+                        {
                             title: "DevOps Culture and Automation",
                             company: "Credit Acceptance",
-                            companylogo: "", 
+                            companylogo: "",
                             date: "2018 - 2023",
                             desc: "Built a multi-disciplinary DevOps team, fostering collaboration and automating manual tasks to improve efficiency. Implemented CI/CD pipelines and infrastructure automation with GitOps, ArgoCD, and Terraform.",
                             descBullets: []
-                          },
-                          {
+                        },
+                        {
                             title: "Identity Management and Security Enhancements",
                             company: "Credit Acceptance",
-                            companylogo: "", 
+                            companylogo: "",
                             date: "2020 - 2024",
                             desc: "Automated role-based access and streamlined developer onboarding, improving security and productivity. Implemented SSO for IDEs and related tools, reducing cognitive load on software teams.",
                             descBullets: []
-                          }
-                        ],
-                        display: true 
-                      };
-                      
-                      const O = {
-                        title: "Certifications \ud83c\udfc6 ",
-                        achievementsCards: [
-                          {
+                        }
+                    ],
+                    display: true
+                };
+
+                const O = {
+                    title: "Certifications \ud83c\udfc6 ",
+                    achievementsCards: [{
                             title: "AWS Certified Solutions Architect - Associate",
-                            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", 
+                            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
                             imageAlt: "AWS SAA",
                             footerLink: []
-                          },
-                          {
+                        },
+                        {
                             title: "CompTIA A+ Certified",
-                            image: "https://www.comptia.org/certifications/a", 
+                            image: "https://www.comptia.org/certifications/a",
                             imageAlt: "CompTIA A+",
                             footerLink: []
-                          },
-                          {
+                        },
+                        {
                             title: "Microsoft Certified Professional (MCP)",
                             image: "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg", // Replace with actual MCP logo if available
                             imageAlt: "MCP",
                             footerLink: []
-                          },
-                          {
+                        },
+                        {
                             title: "VMware VCA-DV Certification",
                             image: "https://www.vmware.com/content/dam/digitalmarketing/vmware/en/images/vmware-logo-large.png", // Replace with actual VCA-DV logo if available
                             imageAlt: "VCA-DV",
                             footerLink: []
-                          }
-                        ],
-                        display: true
-                      };
-                      
-                      const L = {
-                        title: "Contact Me \u260e\ufe0f",
-                        subtitle: "Open for new Opportunities",
-                        number: "https://via.placeholder.com/150x50.png?text=734-819-9228", 
-                        email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com" 
-                      };
-                    R = !0
+                        }
+                    ],
+                    display: true
+                };
+
+                const L = {
+                    title: "Contact Me \u260e\ufe0f",
+                    subtitle: "Open for new Opportunities",
+                    number: "https://via.placeholder.com/150x50.png?text=734-819-9228",
+                    email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com"
+                };
+                R = !0
             },
             9741: function (t, e, i) {
                 ! function (t, e, i) {
