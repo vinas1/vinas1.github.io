@@ -205,14 +205,14 @@
                         resumeLink: "https://www.linkedin.com/in/josh-davis101/", 
                         displayGreeting: !0
                     },
-                    {
+                    T = {
                         linkedin: "https://www.linkedin.com/in/josh-davis101/", 
                         github: "https://vinas1.github.io", // Update with your actual GitHub URL if available
                         stackoverflow: "https://stackoverflow.com/users/13636845/vinas",
                         email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com" // Replace with your actual email address image URL
                         display: !0
                     },
-                    {
+                    M = {
                         title: "What I do",
                         subTitle: "I lead teams to enhance developer productivity, optimize processes, and leverage cloud technologies for business growth. I'm passionate about mentoring and empowering engineers to reach their full potential.",
                         skills: [
@@ -238,7 +238,7 @@
                         ],
                         display: !0
                     },
-                    {
+                    F = {
                         display: !0,
                         title: "Education \ud83c\udf93 ",
                         schools: [
@@ -260,7 +260,7 @@
                             }
                         ]
                     },
-                    {
+                    V = {
                         viewSkillBars: !0,
                         title: "Skills \ud83d\udc68\u200d\ud83d\udcbb ",
                         categories: {
@@ -289,7 +289,7 @@
                         },
                         displayCodersrank: !0 
                     },
-                    {
+                    B = {
                         display: !0,
                         experience: [
                             {
@@ -318,11 +318,18 @@
                             } 
                         ]
                     },
-                    {
+                    G = {
                         showGithubProfile: "true",
                         display: !0
                     },
-                    {
+                    I = {
+                        title: "Big Projects",
+                        projects: [
+                            // You can add or update projects here if you want to showcase them
+                        ],
+                        display: !1
+                    },
+                    O = {
                         title: "Certifications \ud83c\udfc6 ",
                         achievementsCards: [
                           {
