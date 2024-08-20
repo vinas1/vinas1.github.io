@@ -198,159 +198,142 @@
                     C = {
                         animated: !0
                     },
-                    _ = {
+                    const _ = {
                         username: "Josh Davis",
                         title: "Hi all, I'm Josh",
-                        subTitle: a()("Currently a senior leader in the FinTech space, I grew up over the last 20+ years working back end systems in IT, now specializing in DevOps and Developer Experience under the Platform group. I have a record of improving everything I touch by not letting perfect get in the way of progress."),
-                        resumeLink: "https://www.linkedin.com/in/josh-davis101/", // Assuming you want to link to your LinkedIn
-                        displayGreeting: !0
-                    },
-                    T = {
-                        linkedin: "https://www.linkedin.com/in/josh-davis101/", // Update with your actual LinkedIn URL
-                        github: null, // Remove or update if you have a GitHub
-                        stackoverflow: null, // Remove or update if you have a Stack Overflow
-                        gmail: null, // Update with your email if you want to display it
-                        display: !0
-                    },
-                    M = {
+                        subTitle: "Senior Manager in FinTech, specializing in DevOps and Developer Experience. I turn visions into reality, optimizing tech and empowering teams for growth.",
+                        resumeLink: "https://www.linkedin.com/in/josh-davis101/", 
+                        displayGreeting: true
+                      };
+                      
+                      const T = {
+                        linkedin: "https://www.linkedin.com/in/josh-davis101/", 
+                        github: "https://vinas1.github.io", 
+                        stackoverflow: null, 
+                        gmail: "vinas1@gmail.com", 
+                        display: true
+                      };
+                      
+                      const M = {
                         title: "What I do",
-                        subTitle: "Currently a senior leader in the FinTech space, I grew up over the last 20+ years working back end systems in IT, now specializing in DevOps and Developer Experience under the Platform group. I have a record of improving everything I touch by not letting perfect get in the way of progress.",
+                        subTitle: "I lead teams to enhance developer productivity, optimize processes, and leverage cloud technologies for business growth. I'm passionate about mentoring and empowering engineers to reach their full potential.",
                         skills: [
-                            a()("\u26a1 Developer Productivity & Operations"),
-                            a()("\u26a1 People Leadership & Development"),
-                            a()("\u26a1 Process Optimization & Efficiency"),
-                            a()("\u26a1 Cloud Technologies & DevOps"),
+                          "\u26a1 Developer Productivity & Operations",
+                          "\u26a1 People Leadership & Development",
+                          "\u26a1 Process Optimization & Efficiency",
+                          "\u26a1 Cloud Technologies & DevOps",
+                          "\u26a1 Identity Management & Security",
+                          "\u26a1 Database Reliability Engineering (DBRE)"
                         ],
-                        softwareSkills: [{
-                                skillName: "AWS",
-                                skillIcon: u
-                            }, // Update with relevant skills and icons
-                            {
-                                skillName: "GitOps",
-                                skillIcon: u
-                            },
-                            {
-                                skillName: "Terraform",
-                                skillIcon: u
-                            },
-                            {
-                                skillName: "Python",
-                                skillIcon: u
-                            },
+                        softwareSkills: [
+                          { skillName: "AWS", skillIcon: "devicon-amazonwebservices-original-wordmark colored" }, 
+                          { skillName: "GitOps", skillIcon: "devicon-git-plain colored" }, 
+                          { skillName: "Terraform", skillIcon: "devicon-terraform-plain colored" },
+                          { skillName: "Python", skillIcon: "devicon-python-plain-wordmark colored" },
+                          { skillName: "ArgoCD", skillIcon: "devicon-kubernetes-plain colored" }, 
+                          { skillName: "Ansible", skillIcon: "devicon-ansible-plain colored" }, 
+                          { skillName: "Dynatrace", skillIcon: "devicon-dynatrace-plain colored" }, 
+                          { skillName: "Splunk", skillIcon: "devicon-splunk-original-wordmark colored" }, 
+                          { skillName: "Azure", skillIcon: "devicon-azure-plain-wordmark colored" }, 
+                          { skillName: "Docker", skillIcon: "devicon-docker-plain-wordmark colored" }, 
+                          { skillName: "Oracle", skillIcon: "devicon-oracle-original colored" } 
                         ],
-                        display: !0
-                    },
-                    F = {
-                        display: !0,
-                        title: a()("Education \ud83c\udf93 "),
-                        schools: [{
+                        display: true
+                      };
+                      
+                      const F = {
+                        display: true,
+                        title: "Education \ud83c\udf93 ",
+                        schools: [
+                          {
                             schoolName: "Monroe County Community College",
-                            logo: i(6510), // Update with the school logo import
+                            logo: "", // Find and replace with the school's logo import
                             subHeader: "Associate's in Electronics and Computer Information Systems",
                             duration: "2012",
                             desc: "Relevant Coursework",
                             descBullets: [
-                                "Visual Basic",
-                                "UI Design",
-                                "Intro to Java",
-                                "Windows and Linux Administration",
-                                "Core Networking",
-                                "Applied Circuit Logic",
-                                "High Reliability Soldering",
+                              "Visual Basic",
+                              "UI Design",
+                              "Intro to Java",
+                              "Windows and Linux Administration",
+                              "Core Networking",
+                              "Applied Circuit Logic",
+                              "High Reliability Soldering"
                             ]
-                        }, ]
-                    },
-                    V = {
-                        viewSkillBars: !0,
-                        title: a()("Skills \ud83d\udc68\u200d\ud83d\udcbb "),
-                        categories: {
-                            DevOps: [{
-                                    skillName: "AWS",
-                                    progressPercentage: "70%",
-                                    imageUrl: E
-                                },
-                                {
-                                    skillName: "GitOps",
-                                    progressPercentage: "80%",
-                                    imageUrl: d
-                                },
-                                {
-                                    skillName: "Terraform",
-                                    progressPercentage: "80%",
-                                    imageUrl: p
-                                },
-                                {
-                                    skillName: "Python",
-                                    progressPercentage: "75%",
-                                    imageUrl: g
-                                },
-                                {
-                                    skillName: "CI/CD",
-                                    progressPercentage: "80%",
-                                    imageUrl: y
-                                }
-                            ],
-                            Development: [
-                                // ... (You might want to add or adjust skills here based on your resume)
-                            ],
-                            Platform: [
-                                // ... (You might want to add or adjust skills here based on your resume)
-                            ]
-                        },
-                        displayCodersrank: !1
-                    },
-                    B = {
-                        display: !0,
-                        experience: [{
-                                role: "Senior Leader, Platform Engineering & DevOps",
-                                company: "Rocket Mortgage",
-                                companylogo: i(1580), // Update with the company logo import
-                                date: "Jan 2022 - Present",
-                                desc: "",
-                                descBullets: [
-                                    "Developer Productivity & Operations: Expert in implementing a vision to enhance developer happiness by reducing friction.",
-                                    "People Leadership & Development: Proven success in building and leading cross-functional teams (40+ engineers), fostering collaboration, and empowering team members to achieve their full potential.",
-                                    "Process Optimization & Efficiency: Experienced in identifying bottlenecks, creating new processes, and driving continuous improvement initiatives to enhance operational efficiency and reduce costs (e.g., migration from Oracle on-prem to AWS cloud-based alternatives).",
-                                    "Cloud Technologies & DevOps: Deep understanding of cloud platforms like AWS cognito, EC2, S3, EKS, Fargate, Lambda, Secrets Manager, and Parameter Store. Skilled with GitOps specifically expertised in implementing secure code repos and reusable workflows in CI/CD pipelines, Azure API management gateway, and Microsoft Entra ID (formerly Azure Active Directory). Experienced using ArgoCD, terraform, and Python for code migrations and infrastructure automation, and Dynatrace + Splunk for observability solutions in production systems."
-                                ]
-                            },
-                            {
-                                role: "Director, Software Engineering",
-                                company: "United Wholesale Mortgage",
-                                companylogo: i(4018), // Update with the company logo import
-                                date: "Jan 2019 - Jan 2022",
-                                desc: "",
-                                descBullets: [
-                                    "Led the development of a scalable, cloud-native microservices architecture using AWS, resulting in improved performance and reduced infrastructure costs.",
-                                    "Implemented a robust CI/CD pipeline using Jenkins, GitLab CI, and ArgoCD, enabling faster and more reliable software delivery.",
-                                    "Established a culture of DevOps collaboration, bridging the gap between development, operations, and security teams."
-                                ]
-                            },
-                            {
-                                role: "AVP, Release & Environment Management",
-                                company: "Mr. Cooper",
-                                companylogo: i(4558), // Update with the company logo import
-                                date: "Apr 2016 - Jan 2019",
-                                desc: "",
-                                descBullets: [
-                                    "Oversaw the release management process, ensuring smooth deployments and minimizing downtime.",
-                                    "Managed and optimized the development, testing, and production environments.",
-                                    "Implemented automated testing and monitoring tools to improve software quality and reliability."
-                                ]
-                            }
+                          }
                         ]
-                    },
-                    G = {
+                      };
+                      
+                      const V = {
+                        viewSkillBars: true,
+                        title: "Skills \ud83d\udc68\u200d\ud83d\udcbb ",
+                        categories: {
+                          DevOps: [
+                            { skillName: "AWS", progressPercentage: "90%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+                            { skillName: "GitOps", progressPercentage: "85%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" },
+                            { skillName: "Terraform", progressPercentage: "80%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-plain.svg" },
+                            { skillName: "Python", progressPercentage: "75%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+                            { skillName: "CI/CD", progressPercentage: "90%", imageUrl: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" }, 
+                            { skillName: "ArgoCD", progressPercentage: "85%", imageUrl: "https://argoproj.github.io/argo-workflows/assets/argo.png" },
+                            { skillName: "Ansible", progressPercentage: "80%", imageUrl: "https://www.ansible.com/hubfs/2023_Red_Hat_Ansible_Automation_Platform_Logo_Color_RGB.svg" },
+                            { skillName: "Dynatrace", progressPercentage: "85%", imageUrl: "https://dynatrace.com/content/dam/dynatrace/images/homepage-hero/dynatrace-logo-white.svg" },
+                            { skillName: "Splunk", progressPercentage: "80%", imageUrl: "https://www.splunk.com/content/dam/splunk-blogs/images/2017/02/splunk-logo.png" }
+                          ],
+                          Cloud: [ 
+                            { skillName: "Azure", progressPercentage: "70%", imageUrl: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" },
+                            { skillName: "Docker", progressPercentage: "75%", imageUrl: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic-white.png" },
+                            { skillName: "Oracle", progressPercentage: "80%", imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" }
+                          ],
+                          Security: [
+                            { skillName: "Identity Management", progressPercentage: "85%", imageUrl: "https://w7.pngwing.com/pngs/948/54/png-transparent-computer-icons-identity-management-identity-and-access-management-user-access-identity-blue-angle-text.png" }
+                          ],
+                          Database: [
+                            { skillName: "Database Reliability Engineering", progressPercentage: "80%", imageUrl: "https://www.oreilly.com/library/view/database-reliability/9781492044412/assets/cover.png" }
+                          ]
+                        },
+                        displayCodersrank: false 
+                      };
+                      
+                      const B = {
+                        display: true,
+                        experience: [
+                          {
+                            role: "Senior Manager, Developer Productivity Engineering",
+                            company: "Credit Acceptance",
+                            companylogo: "", 
+                            date: "Feb 2024 - Present",
+                            desc: "Leading teams in DevEx, DevOps, DBRE, and Identity to enhance developer experience, drive automation, and modernize CI/CD pipelines. Also upskilling DBA team members in cloud-native technologies.",
+                            descBullets: [] 
+                          },
+                          {
+                            role: "Senior Manager, DevOps",
+                            company: "Credit Acceptance",
+                            companylogo: "", 
+                            date: "Feb 2023 - Feb 2024",
+                            desc: "Implemented APM and observability, led CI/CD and infrastructure automation, improving development velocity and operational efficiency.",
+                            descBullets: [] 
+                          },
+                          {
+                            role: "Senior Manager, IT Operations",
+                            company: "Credit Acceptance",
+                            companylogo: "", 
+                            date: "Jul 2020 - Feb 2023",
+                            desc: "Led a 30-person team, implemented and optimized middleware solutions, managed identity and access systems, and drove DevOps adoption.",
+                            descBullets: [] 
+                          } 
+                        ]
+                      };
+                      
+                      const G = {
                         showGithubProfile: "true",
-                        display: !0
-                    },
-                    I = {
+                        display: true
+                      };
+                      
+                      const I = {
                         title: "Big Projects",
-                        projects: [
-                            // You can add or update projects here if you want to showcase them
-                        ],
-                        display: !1
-                    },
+                        projects: [], 
+                        display: false
+                      };
                     O = {
                         title: a()("Certifications \ud83c\udfc6 "),
                         achievementsCards: [{
@@ -367,7 +350,7 @@
                         title: a()("Contact Me \u260e\ufe0f"),
                         subtitle: "Open for new Opportunities",
                         number: "N/A", // Update with your phone number or remove if not desired
-                        email_address: "josh.davis101@gmail.com" // Update with your email
+                        email_address: "vinas03@yahoo.com" // Update with your email
                     },
                     R = !0
             },
