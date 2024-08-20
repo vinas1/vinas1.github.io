@@ -20609,7 +20609,7 @@
                     className: "footer-div",
                     children: (0, c.jsx)("p", {
                         className: e ? "dark-mode footer-text" : "footer-text",
-                        children: n()("Ujjawal Pathak")
+                        children: n()("\u00A9 " + new Date().getFullYear() + " Joshua Davis")
                     })
                 })
             })
