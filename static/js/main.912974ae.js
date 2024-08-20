@@ -126,7 +126,7 @@
                             for (var r in i) Object.prototype.hasOwnProperty.call(i, r) && (t[r] = i[r])
                         }
                         return t
-                    }, c.apply(f, [...arguments])
+                    }, c.apply(this, Array.prototype.slice.call(arguments))
                 }
 
                 function h(t, e) {
