@@ -331,27 +331,88 @@
                       
                       const I = {
                         title: "Big Projects",
-                        projects: [], 
-                        display: false
-                      };
-                    O = {
-                        title: a()("Certifications \ud83c\udfc6 "),
-                        achievementsCards: [{
-                                title: "AWS Certified Solutions Architect - Associate",
-                                image: i(6321),
-                                imageAlt: "AWS SAA",
-                                footerLink: []
-                            },
-                            // You can add or update certifications here
+                        projects: [
+                          {
+                            title: "Developer Productivity Transformation",
+                            company: "Credit Acceptance",
+                            companylogo: "", // Find and replace with the company's logo import
+                            date: "2024",
+                            desc: "Led the migration from Bitbucket, Jenkins, and XL Deploy to GitOps and ArgoCD, improving developer productivity by over 20%. Built reusable workflows, designed an Istio service mesh, and leveraged Ansible automation and Qodana static code analysis.",
+                            descBullets: []
+                          },
+                          {
+                            title: "Cloud Migration and Cost Optimization",
+                            company: "Credit Acceptance",
+                            companylogo: "", 
+                            date: "2020 - 2023",
+                            desc: "Migrated from on-prem Oracle to AWS cloud-based alternatives, reducing costs and improving operational efficiency. Also migrated WebLogic to Tomcat in Docker, further streamlining the infrastructure.",
+                            descBullets: []
+                          },
+                          {
+                            title: "APM and Observability Implementation",
+                            company: "Credit Acceptance",
+                            companylogo: "", 
+                            date: "2023 - 2024",
+                            desc: "Implemented Dynatrace and Splunk for real-time system insights, enabling proactive problem resolution and significantly reducing incident response times.",
+                            descBullets: []
+                          },
+                          {
+                            title: "DevOps Culture and Automation",
+                            company: "Credit Acceptance",
+                            companylogo: "", 
+                            date: "2018 - 2023",
+                            desc: "Built a multi-disciplinary DevOps team, fostering collaboration and automating manual tasks to improve efficiency. Implemented CI/CD pipelines and infrastructure automation with GitOps, ArgoCD, and Terraform.",
+                            descBullets: []
+                          },
+                          {
+                            title: "Identity Management and Security Enhancements",
+                            company: "Credit Acceptance",
+                            companylogo: "", 
+                            date: "2020 - 2024",
+                            desc: "Automated role-based access and streamlined developer onboarding, improving security and productivity. Implemented SSO for IDEs and related tools, reducing cognitive load on software teams.",
+                            descBullets: []
+                          }
                         ],
-                        display: !0
-                    },
-                    L = {
-                        title: a()("Contact Me \u260e\ufe0f"),
+                        display: true 
+                      };
+                      
+                      const O = {
+                        title: "Certifications \ud83c\udfc6 ",
+                        achievementsCards: [
+                          {
+                            title: "AWS Certified Solutions Architect - Associate",
+                            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", 
+                            imageAlt: "AWS SAA",
+                            footerLink: []
+                          },
+                          {
+                            title: "CompTIA A+ Certified",
+                            image: "https://www.comptia.org/certifications/a", 
+                            imageAlt: "CompTIA A+",
+                            footerLink: []
+                          },
+                          {
+                            title: "Microsoft Certified Professional (MCP)",
+                            image: "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg", // Replace with actual MCP logo if available
+                            imageAlt: "MCP",
+                            footerLink: []
+                          },
+                          {
+                            title: "VMware VCA-DV Certification",
+                            image: "https://www.vmware.com/content/dam/digitalmarketing/vmware/en/images/vmware-logo-large.png", // Replace with actual VCA-DV logo if available
+                            imageAlt: "VCA-DV",
+                            footerLink: []
+                          }
+                        ],
+                        display: true
+                      };
+                      
+                      const L = {
+                        title: "Contact Me \u260e\ufe0f",
                         subtitle: "Open for new Opportunities",
-                        number: "N/A", // Update with your phone number or remove if not desired
-                        email_address: "vinas03@yahoo.com" // Update with your email
-                    },
+                        number: "https://via.placeholder.com/150x50.png?text=734-819-9228", // Replace with your actual phone number image URL
+                        email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com" // Replace with your actual email address image URL
+                      };
                     R = !0
             },
             9741: function (t, e, i) {
