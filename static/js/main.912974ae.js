@@ -244,7 +244,7 @@
                         schools: [
                             {
                                 schoolName: "Monroe County Community College",
-                                image: "./static/media/mccc_edu_icon.png", // Find and replace with the school's logo import
+                                image: "https://vinas1.github.io/static/media/mccc_edu_icon.png", // Find and replace with the school's logo import
                                 subHeader: "Associate's in Electronics and Computer Information Systems",
                                 duration: "2012",
                                 desc: "Relevant Coursework",
