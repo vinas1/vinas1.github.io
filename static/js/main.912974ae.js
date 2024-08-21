@@ -1,5 +1,4 @@
 /*! For license information please see main.912974ae.js.LICENSE.txt */
-import mcccLogo from '../static/media/mccc_edu_icon.png'; // Import the logo using Webpack
 (() => {
     var __webpack_modules__ = {
             3365: (t, e, i) => {
@@ -276,11 +275,12 @@ import mcccLogo from '../static/media/mccc_edu_icon.png'; // Import the logo usi
                         title: a()("Education \ud83c\udf93 "),
                         schools: [{
                             schoolName: "Monroe County Community College",
-                            image: mcccLogo, // Use the imported logo
+                            logo: i(6510),
                             subHeader: "Associate's in Electronics and Computer Information Systems",
                             duration: "2012",
                             desc: "Relevant Coursework",
                             descBullets: [
+                                "Python",
                                 "Visual Basic",
                                 "UI Design",
                                 "Intro to Java",
