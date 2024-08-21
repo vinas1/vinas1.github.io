@@ -244,7 +244,7 @@
                         schools: [
                             {
                                 schoolName: "Monroe County Community College",
-                                imageUrl: "/static/media/mccc_edu_icon.png", // Find and replace with the school's logo import
+                                image: "../static/media/mccc_edu_icon.png", // Find and replace with the school's logo import
                                 subHeader: "Associate's in Electronics and Computer Information Systems",
                                 duration: "2012",
                                 desc: "Relevant Coursework",
@@ -295,7 +295,7 @@
                             {
                                 role: "Senior Manager, Developer Productivity Engineering",
                                 company: "Credit Acceptance",
-                                imageUrl: "https://www.creditacceptance.com/assets/images/header/CA_Logo.svg", // Find and replace with the company's logo import
+                                image: "https://www.creditacceptance.com/assets/images/header/CA_Logo.svg", // Find and replace with the company's logo import
                                 date: "Feb 2024 - Present",
                                 desc: "Leading teams in DevEx, DevOps, DBRE, and Identity to enhance developer experience, drive automation, and modernize CI/CD pipelines. Also upskilling DBA team members in cloud-native technologies.",
                                 descBullets: [] 
@@ -352,7 +352,7 @@
                           },
                           {
                             title: "VMware VCA-DV Certification",
-                            image: "https://www.vmware.com/content/dam/digitalmarketing/vmware/en/images/vmware-logo-large.png", // Replace with actual VCA-DV logo if available
+                            image: "https://logos-world.net/wp-content/uploads/2022/03/VMware-Logo-700x394.png", // Replace with actual VCA-DV logo if available
                             imageAlt: "VCA-DV",
                             footerLink: []
                           }
