@@ -275,7 +275,7 @@
                         title: a()("Education \ud83c\udf93 "),
                         schools: [{
                             schoolName: "Monroe County Community College",
-                            logo: i(6510),
+                            logo: i(6511),
                             subHeader: "Associate's in Electronics and Computer Information Systems",
                             duration: "2012",
                             desc: "Relevant Coursework",
@@ -19678,6 +19678,10 @@
             6510: (t, e, i) => {
                 "use strict";
                 t.exports = i.p + "static/media/SBU_logo.64db9ea7a6afc868cc06.png"
+            },
+            6511: (t, e, i) => {
+                "use strict";
+                t.exports = i.p + "static/media/mccc_logo.64db9ea7a6afc868cc06.png"
             },
             1580: (t, e, i) => {
                 "use strict";
