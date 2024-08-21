@@ -214,14 +214,14 @@
                     },
                     M = {
                         title: "What I do",
-                        subTitle: "I lead teams to enhance developer productivity, optimize processes, and leverage cloud technologies for business growth. I'm passionate about mentoring and empowering engineers to reach their full potential.",
+                        subTitle: "I lead teams to enhance developer productivity. That starts with learning to enact better processes, use everything as code, improve CI/CD and leverage cloud technologies for business growth. I'm passionate about coaching and empowering engineering teams to reach their full potential. Teams like:",
                         skills: [
                             a()("\u26a1 Developer Productivity & Operations"),
                             a()("\u26a1 People Leadership & Development"),
                             a()("\u26a1 Process Optimization & Efficiency"),
                             a()("\u26a1 Cloud Technologies & DevOps"),
                             a()("\u26a1 Identity Management & Security"),
-                            a()("\u26a1 Database Reliability Engineering (DBRE)"),
+                            a()("\u26a1 Database Reliability Engineering"),
                         ],
                         softwareSkills: [
                             { skillName: "AWS", skillIcon: "devicon-amazonwebservices-original-wordmark colored" }, // Update with relevant skills and icons
@@ -244,7 +244,7 @@
                         schools: [
                             {
                                 schoolName: "Monroe County Community College",
-                                imageUrl: "https://www.monroeccc.edu/sites/default/files/mccc_logo_angle.svg", // Find and replace with the school's logo import
+                                logo: require(\"./assets/images/mccc_edu_icon.png\"), // Find and replace with the school's logo import
                                 subHeader: "Associate's in Electronics and Computer Information Systems",
                                 duration: "2012",
                                 desc: "Relevant Coursework",
