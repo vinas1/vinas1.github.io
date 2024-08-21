@@ -1,4 +1,5 @@
 /*! For license information please see main.912974ae.js.LICENSE.txt */
+import mcccLogo from '../static/media/mccc_edu_icon.png'; // Import the logo using Webpack
 (() => {
     var __webpack_modules__ = {
             3365: (t, e, i) => {
@@ -270,8 +271,6 @@
                         ],
                         display: !0
                     },
-                    import mcccLogo from '../static/media/mccc_edu_icon.png'; // Import the logo using Webpack
-
                 F = {
                         display: !0,
                         title: a()("Education \ud83c\udf93 "),
