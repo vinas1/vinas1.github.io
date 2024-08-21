@@ -214,7 +214,7 @@
                     },
                     M = {
                         title: "What I do",
-                        subTitle: "I lead teams to enhance developer productivity. That starts with learning to enact better processes, use everything as code, improve CI/CD and leverage cloud technologies for business growth. I'm passionate about coaching and empowering engineering teams to reach their full potential. Teams like:",
+                        subTitle: "I lead teams to enhance developer productivity. That starts with learning to enact better processes, use everything as code, improve CI/CD and leverage cloud technologies for business growth. I'm passionate about coaching and empowering engineering teams to reach their full potential. I have led teams like",
                         skills: [
                             a()("\u26a1 Developer Productivity & Operations"),
                             a()("\u26a1 People Leadership & Development"),
