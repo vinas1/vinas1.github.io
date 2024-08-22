@@ -441,8 +441,8 @@
                     L = {
                         title: a()("Contact Me \u260e\ufe0f"),
                         subtitle: "Open for new Opportunities",
-                        number: "N/A", // Update with your phone number or remove if not desired
-                        email_address: "https://via.placeholder.com/200x50.png?text=vinas03%40yahoo.com" // Replace with your actual email address image URL
+                        number: "email me!", // Update with your phone number or remove if not desired
+                        email_address: "vinas03@yahoo.com" // Replace with your actual email address image URL
                     },
                     R = !0
             },
