@@ -357,7 +357,7 @@
                                     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
                                 }
                             ],
-                            InfraSec: [{
+                            "Infrastructure & Security": [{
                                 skillName: "Identity Management",
                                 progressPercentage: "85%",
                                 imageUrl: S // JD: defined on line 190
@@ -365,7 +365,7 @@
                             {
                                 skillName: "DB Reliability",
                                 progressPercentage: "80%",
-                                imageUrl: "https://cdn-icons-png.flaticon.com/512/542/542725.png"
+                                imageUrl: "https://cdn-icons-png.flaticon.com/512/542/542725.png" // these images may break
                             }],
                         },
                         displayCodersrank: !0
