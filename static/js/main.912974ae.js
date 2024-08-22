@@ -187,7 +187,7 @@
                 const b = i.p + "static/media/nosql.d2e5d44806a361622668b447f5a270e3.svg";
                 const E = i.p + "static/media/aws.b348a4d7fc623336df711f3c55b15d10.svg";
                 const A = i.p + "static/media/comptia_a.90210.png";
-                const S = i.p + "static/media/etl.bac520430ec679c319e3fca22763aef8.svg";
+                const S = i.p + "static/media/identity-and-access-management.svg";
                 const P = i.p + "static/media/dynatrace_icon.png";
                 const w = i.p + "static/media/spark.c17e04a2d0859cd588bfaca7436c8097.svg",
                     D = {
@@ -357,10 +357,10 @@
                                     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
                                 }
                             ],
-                            InfraSecurity: [{
+                            InfraSec: [{
                                 skillName: "Identity Management",
                                 progressPercentage: "85%",
-                                imageUrl: "https://w7.pngwing.com/pngs/948/54/png-transparent-computer-icons-identity-management-identity-and-access-management-user-access-identity-blue-angle-text.png"
+                                imageUrl: S // JD: defined on line 190
                             },
                             {
                                 skillName: "Database Reliability Engineering",
