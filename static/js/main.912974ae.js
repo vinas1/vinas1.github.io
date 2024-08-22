@@ -440,9 +440,9 @@
                     },
                     L = {
                         title: a()("Contact Me \u260e\ufe0f"),
-                        subtitle: "Open for new Opportunities",
+                        subtitle: "Open to discuss Opportunities",
                         number: "email me!", // Update with your phone number or remove if not desired
-                        email_address: "vinas03@yahoo.com" // Replace with your actual email address image URL
+                        email_address: "vinas03@yahoo.com" // Replace with your actual email address or image URL
                     },
                     R = !0
             },
