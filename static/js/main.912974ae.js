@@ -190,6 +190,7 @@
                 const S = i.p + "static/media/etl.bac520430ec679c319e3fca22763aef8.svg";
                 const P = i.p + "static/media/kafka.916b20efb6856a909295f8ffddc0b5a9.svg";
                 const w = i.p + "static/media/spark.c17e04a2d0859cd588bfaca7436c8097.svg",
+                const aa = i.p + "static/media/Dynatrace_Logo_color_negative_vertical.90210.png",
                     D = {
                         enabled: !0,
                         animation: n,
@@ -328,12 +329,12 @@
                                 {
                                     skillName: "Ansible",
                                     progressPercentage: "80%",
-                                    imageUrl: "https://www.ansible.com/hubfs/2023_Red_Hat_Ansible_Automation_Platform_Logo_Color_RGB.svg"
+                                    imageUrl: m
                                 },
                                 {
                                     skillName: "Dynatrace",
                                     progressPercentage: "85%",
-                                    imageUrl: "https://dynatrace.com/content/dam/dynatrace/images/homepage-hero/dynatrace-logo-white.svg"
+                                    imageUrl: aa
                                 },
                                 {
                                     skillName: "Splunk",
@@ -349,7 +350,7 @@
                                 {
                                     skillName: "Docker",
                                     progressPercentage: "75%",
-                                    imageUrl: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic-white.png"
+                                    imageUrl: f // JD: defined on line 178
                                 },
                                 {
                                     skillName: "Oracle",
@@ -375,7 +376,7 @@
                         experience: [{
                                 role: "Senior Manager, Developer Productivity Engineering",
                                 company: "Credit Acceptance",
-                                imageUrl: "https://www.creditacceptance.com/assets/images/header/CA_Logo.svg", // Find and replace with the company's logo import
+                                companylogo: i(4018), // JD: find and replace the company's logo from line 19696 below
                                 date: "Feb 2024 - Present",
                                 desc: "Leading teams in DevEx, DevOps, DBRE, and Identity to enhance developer experience, drive automation, and modernize CI/CD pipelines. Also upskilling DBA team members in cloud-native technologies.",
                                 descBullets: []
@@ -383,7 +384,7 @@
                             {
                                 role: "Senior Manager, DevOps",
                                 company: "Credit Acceptance",
-                                companylogo: "https://www.creditacceptance.com/assets/images/header/CA_Logo.svg",
+                                companylogo: i(4018), // JD: find and replace the company's logo from line 19696 below
                                 date: "Feb 2023 - Feb 2024",
                                 desc: "Implemented APM and observability, led CI/CD and infrastructure automation, improving development velocity and operational efficiency.",
                                 descBullets: []
@@ -391,7 +392,7 @@
                             {
                                 role: "Senior Manager, IT Operations",
                                 company: "Credit Acceptance",
-                                companylogo: "https://www.creditacceptance.com/assets/images/header/CA_Logo.svg",
+                                companylogo: i(4018), // JD: find and replace the company's logo from line 19696 below
                                 date: "Jul 2020 - Feb 2023",
                                 desc: "Led a 30-person team, implemented and optimized middleware solutions, managed identity and access systems, and drove DevOps adoption.",
                                 descBullets: []
@@ -419,7 +420,7 @@
                             },
                             {
                                 title: "CompTIA A+ Certified",
-                                image: "https://www.comptia.org/certifications/a",
+                                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/CompTIA_A%2B_logo.svg/1200px-CompTIA_A%2B_logo.svg.png",
                                 imageAlt: "CompTIA A+",
                                 footerLink: []
                             },
@@ -19693,7 +19694,7 @@
             },
             4018: (t, e, i) => {
                 "use strict";
-                t.exports = i.p + "static/media/tw_logo.6d20b2bdbb97f0607e97.jpeg"
+                t.exports = i.p + "static/media/cac_logo.6d20b2bdbb97f0607e97.jpg" // JD: company logo is defined here allong with a uniqe id
             }
         },
         __webpack_module_cache__ = {};
