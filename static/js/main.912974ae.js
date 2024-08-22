@@ -295,11 +295,7 @@
                         viewSkillBars: !0,
                         title: "Skills \ud83d\udc68\u200d\ud83d\udcbb ",
                         categories: {
-                            DevOps: [{
-                                    skillName: "AWS",
-                                    progressPercentage: "90%",
-                                    imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-                                },
+                            DevOps: [
                                 {
                                     skillName: "GitOps",
                                     progressPercentage: "85%",
@@ -342,6 +338,10 @@
                                 }
                             ],
                             Cloud: [{
+                                skillName: "AWS",
+                                progressPercentage: "90%",
+                                imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                            },{
                                     skillName: "Azure",
                                     progressPercentage: "70%",
                                     imageUrl: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
