@@ -363,7 +363,7 @@
                                 imageUrl: S // JD: defined on line 190
                             },
                             {
-                                skillName: "Database Reliability Engineering",
+                                skillName: "DB Reliability",
                                 progressPercentage: "80%",
                                 imageUrl: "https://cdn-icons-png.flaticon.com/512/542/542725.png"
                             }],
