@@ -365,7 +365,7 @@
                             {
                                 skillName: "Database Reliability Engineering",
                                 progressPercentage: "80%",
-                                imageUrl: "https://www.oreilly.com/library/view/database-reliability/9781492044412/assets/cover.png"
+                                imageUrl: "https://cdn-icons-png.flaticon.com/512/542/542725.png"
                             }],
                         },
                         displayCodersrank: !0
