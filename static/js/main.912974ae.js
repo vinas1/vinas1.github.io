@@ -188,7 +188,7 @@
                 const E = i.p + "static/media/aws.b348a4d7fc623336df711f3c55b15d10.svg";
                 const A = i.p + "static/media/hadoop.36465904901d1750be3b216650103273.svg";
                 const S = i.p + "static/media/etl.bac520430ec679c319e3fca22763aef8.svg";
-                const P = i.p + "static/media/Dynatrace_Logo_color_negative_vertical.90210.png";
+                const P = i.p + "static/media/dynatrace_icon.png";
                 const w = i.p + "static/media/spark.c17e04a2d0859cd588bfaca7436c8097.svg",
                     D = {
                         enabled: !0,
