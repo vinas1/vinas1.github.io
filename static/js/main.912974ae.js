@@ -357,16 +357,16 @@
                                     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
                                 }
                             ],
-                            Security: [{
+                            InfraSecurity: [{
                                 skillName: "Identity Management",
                                 progressPercentage: "85%",
                                 imageUrl: "https://w7.pngwing.com/pngs/948/54/png-transparent-computer-icons-identity-management-identity-and-access-management-user-access-identity-blue-angle-text.png"
-                            }],
-                            Database: [{
+                            },
+                            {
                                 skillName: "Database Reliability Engineering",
                                 progressPercentage: "80%",
                                 imageUrl: "https://www.oreilly.com/library/view/database-reliability/9781492044412/assets/cover.png"
-                            }]
+                            }],
                         },
                         displayCodersrank: !0
                     },
