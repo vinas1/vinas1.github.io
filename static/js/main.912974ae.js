@@ -419,7 +419,7 @@
                             },
                             {
                                 title: "CompTIA A+ Certified",
-                                imageUrl: m,
+                                imageUrl: A,
                                 imageAlt: "CompTIA A+",
                                 footerLink: []
                             },
