@@ -214,7 +214,7 @@
                     },
                     M = {
                         title: "What I do",
-                        subTitle: "I lead teams to enhance developer productivity. That starts with learning to enact better processes, use everything as code, improve CI/CD and leverage cloud technologies for business growth. I'm passionate about coaching and empowering engineering teams to reach their full potential. I have led teams like",
+                        subTitle: "Working in tech means making mistakes. I lead enigneering teams to learn from mistakes and enhance productivity. We leverage DevOps, TechOps, and streamlined processes to deliver results. I'm passionate about coaching people to reach their full potential. I've excelled in areas like:",
                         skills: [
                             a()("\u26a1 Developer Productivity & Operations"),
                             a()("\u26a1 People Leadership & Development"),
@@ -281,13 +281,13 @@
                             desc: "Relevant Coursework",
                             descBullets: [
                                 "Python",
-                                "Visual Basic",
-                                "UI Design",
-                                "Intro to Java",
-                                "Windows and Linux Administration",
-                                "Core Networking",
-                                "Applied Circuit Logic",
-                                "High Reliability Soldering"
+                                "Visual basic",
+                                "UI design",
+                                "Intro to java",
+                                "Windows and linux administration",
+                                "Core networking",
+                                "Applied circuit logic",
+                                "Relational database management systems"
                             ]
                         }]
                     },
@@ -326,16 +326,7 @@
                                     progressPercentage: "80%",
                                     imageUrl: m
                                 },
-                                {
-                                    skillName: "Dynatrace",
-                                    progressPercentage: "85%",
-                                    imageUrl: P
-                                },
-                                {
-                                    skillName: "Splunk",
-                                    progressPercentage: "80%",
-                                    imageUrl: "https://www.splunk.com/content/dam/splunk-blogs/images/2017/02/splunk-logo.png"
-                                }
+                                
                             ],
                             Cloud: [{
                                 skillName: "AWS",
@@ -347,26 +338,37 @@
                                     imageUrl: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
                                 },
                                 {
-                                    skillName: "Docker",
-                                    progressPercentage: "75%",
-                                    imageUrl: f // JD: defined on line 178
-                                },
-                                {
-                                    skillName: "Oracle",
+                                    skillName: "OCI",
                                     progressPercentage: "80%",
                                     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
                                 }
                             ],
-                            "Infrastructure & Security": [{
+                            TechOps: [{
                                 skillName: "Identity Management",
                                 progressPercentage: "85%",
                                 imageUrl: S // JD: defined on line 190
                             },
                             {
+                                skillName: "Docker",
+                                progressPercentage: "75%",
+                                imageUrl: f // JD: defined on line 178
+                            },
+                            {
                                 skillName: "DB Reliability",
                                 progressPercentage: "80%",
                                 imageUrl: "https://cdn-icons-png.flaticon.com/512/542/542725.png" // these images may break
-                            }],
+                            },
+                            {
+                                skillName: "Dynatrace",
+                                progressPercentage: "85%",
+                                imageUrl: P
+                            },
+                            {
+                                skillName: "Splunk",
+                                progressPercentage: "80%",
+                                imageUrl: "https://www.splunk.com/content/dam/splunk-blogs/images/2017/02/splunk-logo.png"
+                            }
+                        ],
                         },
                         displayCodersrank: !0
                     },
