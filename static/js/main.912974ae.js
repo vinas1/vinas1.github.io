@@ -214,14 +214,15 @@
                     },
                     M = {
                         title: "What I do",
-                        subTitle: "I lead teams to enhance developer productivity. That starts with learning to enact better processes, use everything as code, improve CI/CD and leverage cloud technologies for business growth. I'm passionate about coaching and empowering engineering teams to reach their full potential. I have led teams like",
+                        subTitle: "I lead teams to enhance developer productivity. That starts with acting on opportunities to upskill people and processes, push everything as code, improve CI/CD and leverage cloud technologies for business growth. I'm passionate about coaching and empowering engineering teams to reach their full potential. I lead people in themes like &#x2193;",
                         skills: [
-                            a()("\u26a1 Developer Productivity & Operations"),
+                            a()("\u26a1 Developer Productivity & IT Operations"),
                             a()("\u26a1 People Leadership & Development"),
                             a()("\u26a1 Process Optimization & Efficiency"),
                             a()("\u26a1 Cloud Technologies & DevOps"),
                             a()("\u26a1 Identity Management & Security"),
                             a()("\u26a1 Database Reliability Engineering"),
+                            a()("\u26a1 Identity Management and TechOps"),
                         ],
                         softwareSkills: [{
                                 skillName: "AWS",
@@ -303,7 +304,7 @@
                                 },
                                 {
                                     skillName: "Terraform",
-                                    progressPercentage: "80%",
+                                    progressPercentage: "75%",
                                     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-plain.svg"
                                 },
                                 {
@@ -313,17 +314,17 @@
                                 },
                                 {
                                     skillName: "CI/CD",
-                                    progressPercentage: "90%",
+                                    progressPercentage: "95%",
                                     imageUrl: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
                                 },
                                 {
                                     skillName: "ArgoCD",
-                                    progressPercentage: "85%",
+                                    progressPercentage: "80%",
                                     imageUrl: "https://argoproj.github.io/argo-workflows/assets/argo.png"
                                 },
                                 {
                                     skillName: "Ansible",
-                                    progressPercentage: "80%",
+                                    progressPercentage: "75%",
                                     imageUrl: m
                                 },
                                 {
@@ -339,11 +340,11 @@
                             ],
                             Cloud: [{
                                 skillName: "AWS",
-                                progressPercentage: "90%",
+                                progressPercentage: "80%",
                                 imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
                             },{
                                     skillName: "Azure",
-                                    progressPercentage: "70%",
+                                    progressPercentage: "85%",
                                     imageUrl: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
                                 },
                                 {
@@ -353,18 +354,18 @@
                                 },
                                 {
                                     skillName: "Oracle",
-                                    progressPercentage: "80%",
+                                    progressPercentage: "75%",
                                     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
                                 }
                             ],
                             "Infrastructure & Security": [{
                                 skillName: "Identity Management",
-                                progressPercentage: "85%",
+                                progressPercentage: "90%",
                                 imageUrl: S // JD: defined on line 190
                             },
                             {
                                 skillName: "DB Reliability",
-                                progressPercentage: "80%",
+                                progressPercentage: "75%",
                                 imageUrl: "https://cdn-icons-png.flaticon.com/512/542/542725.png" // these images may break
                             }],
                         },
@@ -372,10 +373,11 @@
                     },
                     B = {
                         display: !0,
-                        experience: [{
+                        experience: [
+                            {
                                 role: "Senior Manager, Developer Productivity Engineering",
                                 company: "Credit Acceptance",
-                                companylogo: i(4018), // JD: find and replace the company's logo from line 19696 below
+                                companylogo: i(4018), 
                                 date: "Feb 2024 - Present",
                                 desc: "Leading teams in DevEx, DevOps, DBRE, and Identity to enhance developer experience, drive automation, and modernize CI/CD pipelines. Also upskilling DBA team members in cloud-native technologies.",
                                 descBullets: []
@@ -383,7 +385,7 @@
                             {
                                 role: "Senior Manager, DevOps",
                                 company: "Credit Acceptance",
-                                companylogo: i(4018), // JD: find and replace the company's logo from line 19696 below
+                                companylogo: i(4018),
                                 date: "Feb 2023 - Feb 2024",
                                 desc: "Implemented APM and observability, led CI/CD and infrastructure automation, improving development velocity and operational efficiency.",
                                 descBullets: []
@@ -391,11 +393,35 @@
                             {
                                 role: "Senior Manager, IT Operations",
                                 company: "Credit Acceptance",
-                                companylogo: i(4018), // JD: find and replace the company's logo from line 19696 below
+                                companylogo: i(4018), 
                                 date: "Jul 2020 - Feb 2023",
                                 desc: "Led a 30-person team, implemented and optimized middleware solutions, managed identity and access systems, and drove DevOps adoption.",
                                 descBullets: []
-                            }
+                            },
+                            {
+                                role: "Manager - Middleware Administration, Identity Management, DevOps", 
+                                company: "Credit Acceptance",
+                                companylogo: i(4018),
+                                date: "Sep 2018 - Jul 2020",
+                                desc: "Led teams in optimizing middleware, managing identity and access systems, and driving DevOps practices. Fostered innovation, ensured security, and aligned technology initiatives with business objectives. Built a multi-disciplinary DevOps team, automating manual tasks and improving efficiency.",
+                                descBullets: []
+                            },
+                            {
+                                role: "Supervisor, Middleware Engineer and Support",
+                                company: "Credit Acceptance",
+                                companylogo: i(4018),
+                                date: "Feb 2018 - Sep 2018",
+                                desc: "Directly supervised a technical team of 13 individual contributors.",
+                                descBullets: []
+                            },
+                            {
+                                role: "IT Operations Supervisor",
+                                company: "Hylant",
+                                companylogo: i(4019), // companylogo: i(replace with Hylant logo reference), 
+                                date: "Jan 2016 - Feb 2018",
+                                desc: "Provided technical leadership over the IT Operations Team. Prioritized projects, made technical recommendations, and expedited Help Desk requests.",
+                                descBullets: []
+                            } 
                         ]
                     },
                     G = {
@@ -19675,9 +19701,9 @@
                 "use strict";
                 t.exports = "data:image/png;base64,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"
             },
-            6510: (t, e, i) => {
+            4019: (t, e, i) => {
                 "use strict";
-                t.exports = i.p + "static/media/SBU_logo.64db9ea7a6afc868cc06.png"
+                t.exports = i.p + "static/media/HG_logo.90210.jpg"
             },
             6511: (t, e, i) => {
                 "use strict";
