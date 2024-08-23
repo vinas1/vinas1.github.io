@@ -283,7 +283,7 @@
                             descBullets: [
                                 "Python",
                                 "Visual basic",
-                                "UI design",
+                                "UX design",
                                 "Intro to java",
                                 "Windows and linux administration",
                                 "Core networking",
