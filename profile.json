@@ -6,8 +6,121 @@
         "avatarUrl": "/static/media/1720828341711.jfif",
         "location": "Carleton, MI",
         "pinnedItems": {
-          "totalCount": 0,
-          "edges": []
+          "totalCount": 8,
+          "edges": [
+            {
+                "node": {
+                  "name": "Developer Productivity",
+                  "description": "Enhanced developer happiness & streamlined workflows.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill1",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Operational Excellence",
+                  "description": "Improved deployment reliability, scalability & system stability.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill2", 
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Transformational Leadership",
+                  "description": "Built & led high-performing teams, fostering collaboration & empowerment.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill3",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Team Empowerment",
+                  "description": "Successfully onboarded new hires, mitigated attrition, & facilitated team transitions.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill4",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Strategic Vision & Process Innovation",
+                  "description": "Identified bottlenecks, created processes, & drove continuous improvement for efficiency.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill5",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Cloud Expertise & DevOps",
+                  "description": "Deep understanding of cloud platforms & expertise in DevOps practices.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill6",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Incident Response",
+                  "description": "Successfully led incident response, minimizing downtime & business impact.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill7",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Mentorship & Technical Guidance",
+                  "description": "Provided technical leadership & mentorship, fostering team growth & development.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill8",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              }
+        ]
         }
       }
     }
