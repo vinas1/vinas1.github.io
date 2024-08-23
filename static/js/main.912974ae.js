@@ -386,7 +386,7 @@
                                 company: "Credit Acceptance",
                                 companylogo: i(4018), 
                                 date: "Feb 2024 - Present",
-                                desc: "Leading teams in DevEx, DevOps, DBRE, and Identity to enhance developer experience, drive automation, and modernize CI/CD pipelines. Also upskilling DBA team members in cloud-native technologies.",
+                                desc: "Spearheading transformation across DevEx, DevOps, DBRE, and Identity teams, enhancing developer experience, driving automation, and modernizing CI/CD pipelines. Upskilling DBA team members in cloud-native technologies to foster a culture of continuous improvement and innovation.",
                                 descBullets: []
                             },
                             {
@@ -394,7 +394,7 @@
                                 company: "Credit Acceptance",
                                 companylogo: i(4018),
                                 date: "Feb 2023 - Feb 2024",
-                                desc: "Implemented APM and observability, led CI/CD and infrastructure automation, improving development velocity and operational efficiency.",
+                                desc: "Delivered significant improvements in development velocity and operational efficiency through the implementation of APM, observability solutions, and robust CI/CD and infrastructure automation.",
                                 descBullets: []
                             },
                             {
@@ -402,7 +402,7 @@
                                 company: "Credit Acceptance",
                                 companylogo: i(4018), 
                                 date: "Jul 2020 - Feb 2023",
-                                desc: "Led a 30-person team, implemented and optimized middleware solutions, managed identity and access systems, and drove DevOps adoption.",
+                                desc: "Led a 30-person team to successfully implement and optimize middleware solutions, manage identity and access systems, and champion DevOps adoption, resulting in increased agility and streamlined processes.",
                                 descBullets: []
                             },
                             {
@@ -410,7 +410,7 @@
                                 company: "Credit Acceptance",
                                 companylogo: i(4018),
                                 date: "Sep 2018 - Jul 2020",
-                                desc: "Led teams in optimizing middleware, managing identity and access systems, and driving DevOps practices. Fostered innovation, ensured security, and aligned technology initiatives with business objectives. Built a multi-disciplinary DevOps team, automating manual tasks and improving efficiency.",
+                                desc: "Successfully led cross-functional teams to optimize middleware, manage identity and access systems, and implement DevOps practices. Fostered a culture of innovation, ensured robust security, and strategically aligned technology initiatives with business objectives. Built and empowered a multi-disciplinary DevOps team, achieving significant efficiency gains through automation of manual tasks.",
                                 descBullets: []
                             },
                             {
@@ -418,7 +418,7 @@
                                 company: "Credit Acceptance",
                                 companylogo: i(4018),
                                 date: "Feb 2018 - Sep 2018",
-                                desc: "Directly supervised a technical team of 13 individual contributors.",
+                                desc: "Provided direct supervision and technical leadership to a team of 13 individual contributors, fostering their growth and development while ensuring successful project delivery.",
                                 descBullets: []
                             },
                             {
@@ -426,9 +426,25 @@
                                 company: "Hylant",
                                 companylogo: i(4019), // companylogo: i(replace with Hylant logo reference), 
                                 date: "Jan 2016 - Feb 2018",
-                                desc: "Provided technical leadership over the IT Operations Team. Prioritized projects, made technical recommendations, and expedited Help Desk requests.",
+                                desc: "Demonstrated technical leadership by effectively prioritizing projects, providing expert recommendations, and streamlining Help Desk requests, resulting in improved IT service delivery and end-user satisfaction.",
                                 descBullets: []
-                            } 
+                            }, 
+                            {
+                                role: "Team Lead",
+                                company: "Hylant",
+                                companylogo: i(4019), // companylogo: i(replace with Hylant logo reference), 
+                                date: "Oct 2013 - Jan 2016",
+                                desc: "Successfully led and mentored a team of IT professionals, fostering collaboration and leveraging their technical expertise to achieve project goals and deliver exceptional results.",
+                                descBullets: []
+                            },
+                            {
+                                role: "Senior Systems Engineer",
+                                company: "Hylant",
+                                companylogo: i(4019), // companylogo: i(replace with Hylant logo reference), 
+                                date: "Aug 2014 - Oct 2013",
+                                desc: "Designed, implemented, and maintained critical systems and infrastructure solutions, ensuring high availability, performance, and security. Proactively identified and resolved complex technical issues, minimizing downtime and maximizing operational efficiency.",
+                                descBullets: []
+                            }
                         ]
                     },
                     G = {
