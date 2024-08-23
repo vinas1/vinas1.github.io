@@ -282,13 +282,13 @@
                             desc: "Relevant Coursework",
                             descBullets: [
                                 "Python",
-                                "Visual Basic",
-                                "UI Design",
-                                "Intro to Java",
-                                "Windows and Linux Administration",
-                                "Core Networking",
-                                "Applied Circuit Logic",
-                                "High Reliability Soldering"
+                                "Visual basic",
+                                "UI design",
+                                "Intro to java",
+                                "Windows and linux administration",
+                                "Core networking",
+                                "Applied circuit logic",
+                                "Relational database management systems"
                             ]
                         }]
                     },
@@ -327,16 +327,7 @@
                                     progressPercentage: "75%",
                                     imageUrl: m
                                 },
-                                {
-                                    skillName: "Dynatrace",
-                                    progressPercentage: "85%",
-                                    imageUrl: P
-                                },
-                                {
-                                    skillName: "Splunk",
-                                    progressPercentage: "80%",
-                                    imageUrl: "https://www.splunk.com/content/dam/splunk-blogs/images/2017/02/splunk-logo.png"
-                                }
+                                
                             ],
                             Cloud: [{
                                 skillName: "AWS",
@@ -358,16 +349,32 @@
                                     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
                                 }
                             ],
-                            "Infrastructure & Security": [{
+                            TechOps: [{
                                 skillName: "Identity Management",
                                 progressPercentage: "90%",
                                 imageUrl: S // JD: defined on line 190
                             },
                             {
+                                skillName: "Docker",
+                                progressPercentage: "75%",
+                                imageUrl: f // JD: defined on line 178
+                            },
+                            {
                                 skillName: "DB Reliability",
                                 progressPercentage: "75%",
                                 imageUrl: "https://cdn-icons-png.flaticon.com/512/542/542725.png" // these images may break
-                            }],
+                            },
+                            {
+                                skillName: "Dynatrace",
+                                progressPercentage: "85%",
+                                imageUrl: P
+                            },
+                            {
+                                skillName: "Splunk",
+                                progressPercentage: "80%",
+                                imageUrl: "https://www.splunk.com/content/dam/splunk-blogs/images/2017/02/splunk-logo.png"
+                            }
+                        ],
                         },
                         displayCodersrank: !0
                     },
@@ -466,9 +473,9 @@
                     },
                     L = {
                         title: a()("Contact Me \u260e\ufe0f"),
-                        subtitle: "Open for new Opportunities",
+                        subtitle: "Open to discuss Opportunities",
                         number: "email me!", // Update with your phone number or remove if not desired
-                        email_address: "vinas03@yahoo.com" // Replace with your actual email address image URL
+                        email_address: "vinas03@yahoo.com" // Replace with your actual email address or image URL
                     },
                     R = !0
             },
