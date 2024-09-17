@@ -216,13 +216,13 @@
                         title: "What I do",
                         subTitle: "I lead teams to enhance developer productivity. That starts with acting on opportunities to upskill people and processes, push everything as code, improve CI/CD and leverage cloud technologies for business growth. I'm passionate about coaching and empowering engineering teams to reach their full potential. I lead people in areas like ▼",
                         skills: [
-                            a()("\u26a1 Developer Productivity & IT Operations"),
+                            a()("\u26a1 Developer Productivity Engineering"),
                             a()("\u26a1 People Leadership & Development"),
                             a()("\u26a1 Process Optimization & Efficiency"),
                             a()("\u26a1 Cloud Technologies & DevOps"),
                             a()("\u26a1 Identity Management & Security"),
                             a()("\u26a1 Database Reliability Engineering"),
-                            a()("\u26a1 Site Reliability Engineering"),
+                            a()("\u26a1 SRE and TechOps"),
                         ],
                         softwareSkills: [{
                                 skillName: "AWS",
