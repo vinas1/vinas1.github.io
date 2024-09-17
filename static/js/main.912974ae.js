@@ -222,7 +222,7 @@
                             a()("\u26a1 Cloud Technologies & DevOps"),
                             a()("\u26a1 Identity Management & Security"),
                             a()("\u26a1 Database Reliability Engineering"),
-                            a()("\u26a1 Identity Management and TechOps"),
+                            a()("\u26a1 Site Reliability Engineering"),
                         ],
                         softwareSkills: [{
                                 skillName: "AWS",
