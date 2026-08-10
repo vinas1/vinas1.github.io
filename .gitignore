@@ -1,4 +1,59 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# DevPlat recommended ignore rules
+
+# secrets files
+secrets.yaml
+**/secrets.yaml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node and build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors and IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon_
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+
+# Linux
+.directory
+*~
 
 # dependencies
 /node_modules
@@ -7,7 +62,7 @@
 
 # testing
 /coverage
-# /build
+/build
 
 
 # misc
@@ -17,6 +72,9 @@
 .env.development.local
 .env.test.local
 .env.production.local
+dist/
+.cache/
+*.log
 
 npm-debug.log*
 yarn-debug.log*
