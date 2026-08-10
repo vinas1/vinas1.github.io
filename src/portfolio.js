@@ -78,22 +78,22 @@ const educationInfo = {
   display: true,
   title: emoji("Training and Education 🎓"),
   schools: [
-    {
-      schoolName: "Monroe County Community College",
-      logo: require("./assets/images/manOnTable.svg"),
-      subHeader: "Associate of Applied Science, Computer Information Systems focus",
-      duration: "Education",
-      desc: "Formal education foundation for a career spanning software, infrastructure, platform engineering, and technical leadership.",
-      descBullets: []
-    },
-    {
-      schoolName: "United States Air Force",
-      logo: require("./assets/images/developerActivity.svg"),
-      subHeader: "Military and security training",
-      duration: "Veteran of Operations Southern Watch and Desert Storm",
-      desc: "Served as an Air Force TASO with specialized leadership training and mission-critical operations experience.",
-      descBullets: []
-    }
+  {
+    schoolName: "Monroe County Community College",
+    logo: require("./assets/images/manOnTable.svg"),
+    subHeader: "Associate of Applied Science, Computer Information Systems focus",
+    duration: "Education",
+    desc: "Formal education foundation for a career spanning software, infrastructure, platform engineering, and technical leadership.",
+    descBullets: []
+  },
+  {
+    schoolName: "United States Air Force",
+    logo: require("./assets/images/developerActivity.svg"),
+    subHeader: "Military and security training",
+    duration: "Veteran of Operations Southern Watch and Desert Storm",
+    desc: "Served as an Air Force TASO with specialized leadership training and mission-critical operations experience.",
+    descBullets: []
+  }
   ]
 };
 
