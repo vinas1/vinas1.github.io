@@ -3,7 +3,7 @@
       "user": {
         "name": "Josh Davis",
         "bio": "I am a Sr Technical leader and US Air Force Veteran with over 20 years of experience in TechOps and Software Platform Engineering. I currently serve as a Manager within Enterprise Architecture & Strategy at DTE Energy, leading the Developer Platform (DevPlat) & Tools organization.\n\nMy work is defined by a 'Platform-as-a-Product' philosophy, where I focus on transforming enterprise IT into cloud-first, platform-as-code-driven digital enterprises. I specialize in:\n- Building secure, scalable developer platforms and 'Golden Paths'\n- Driving cloud governance, FinOps cost optimization, and architectural standards\n- Modernizing engineering workflows using GitHub, ArgoCD, and Terraform\n- Enabling AI-powered engineering and developer productivity\n- Leveraging DORA & SPACE metrics to drive measurable KPIs (Lead Time, Deployment Frequency, Change Fail Rate)\n\nI am passionate about reducing operational toil through SRE principles and establishing enterprise-wide engineering best practices that make the right thing the easy thing.",
-        "avatarUrl": "/static/media/1720828341711.jfif",
+        "avatarUrl": "/assets/images/profile_avatar.jpg",
         "location": "Carleton, MI",
         "pinnedItems": {
           "totalCount": 7,
