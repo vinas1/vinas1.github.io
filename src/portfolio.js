@@ -78,22 +78,22 @@ const educationInfo = {
   display: true,
   title: emoji("Training and Education 🎓"),
   schools: [
-  {
-    schoolName: "Monroe County Community College",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Monroe%5FCommunity%5FCollege%5Fseal.svg",
-    subHeader: "Associate of Applied Science, Computer Information Systems focus",
-    duration: "Education",
-    desc: "Formal education foundation for a career spanning software, infrastructure, platform engineering, and technical leadership.",
-    descBullets: []
-  },
-  {
-    schoolName: "United States Air Force",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Seal_of_the_United_States_Air_Force.svg",
-    subHeader: "Military and security training",
-    duration: "Veteran of Operations Southern Watch and Desert Storm",
-    desc: "Served as an Air Force TASO with specialized leadership training and mission-critical operations experience.",
-    descBullets: []
-  }
+    {
+      schoolName: "Monroe County Community College",
+      logo: require("./assets/images/manOnTable.svg"),
+      subHeader: "Associate of Applied Science, Computer Information Systems focus",
+      duration: "Education",
+      desc: "Formal education foundation for a career spanning software, infrastructure, platform engineering, and technical leadership.",
+      descBullets: []
+    },
+    {
+      schoolName: "United States Air Force",
+      logo: require("./assets/images/developerActivity.svg"),
+      subHeader: "Military and security training",
+      duration: "Veteran of Operations Southern Watch and Desert Storm",
+      desc: "Served as an Air Force TASO with specialized leadership training and mission-critical operations experience.",
+      descBullets: []
+    }
   ]
 };
 
@@ -132,7 +132,7 @@ const workExperiences = {
     {
       role: "Sr Manager, Developer Platform & Tools | Enterprise Architecture & Strategy",
       company: "DTE Energy",
-      companylogo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Seal_of_the_United_States_Air_Force.svg",
+      companylogo: require("./assets/images/developerActivity.svg"),
       date: "November 2025 - Present",
       desc:
         "Leading the Developer Platform & Tools function in Enterprise Architecture & Strategy, unifying architecture, software platform engineering, cloud governance, developer tooling, and platform-as-a-product practices.",
@@ -147,7 +147,7 @@ const workExperiences = {
     {
       role: "Senior Manager, Developer Platform | Platform Engineering",
       company: "Credit Acceptance",
-      companylogo: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Monroe%5FCommunity%5FCollege%5Fseal.svg",
+      companylogo: require("./assets/images/manOnTable.svg"),
       date: "February 2023 - October 2025",
       desc:
         "FinTech technology leader accountable for managers, business analysts, and software engineers across Developer Experience, DevOps, and Cloud teams, with a 60/40 people leadership and technical execution focus.",
@@ -164,7 +164,7 @@ const workExperiences = {
     {
       role: "Senior Manager, DevOps",
       company: "Credit Acceptance",
-      companylogo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Seal_of_the_United_States_Air_Force.svg",
+      companylogo: require("./assets/images/contactMailDark.svg"),
       date: "July 2020 - February 2023",
       desc:
         "Senior leader over multiple leaders and 4-18 person teams across DBOps, Middleware, DevOps, Identity, IT Security, Helpdesk, and Onboarding, including a 14-month stabilization period during senior leadership transition.",
@@ -195,7 +195,7 @@ const workExperiences = {
     {
       role: "Manager, Middleware Engineering and Support",
       company: "Credit Acceptance",
-      companylogo: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Monroe%5FCommunity%5FCollege%5Fseal.svg",
+      companylogo: require("./assets/images/manOnTable.svg"),
       date: "February 2018 - September 2018",
       desc:
         "Led a team of 12 middleware support engineers and administrators responsible for 135 custom Java applications and message queuing systems in an Oracle Fusion Middleware environment.",
@@ -225,7 +225,7 @@ const workExperiences = {
     {
       role: "Systems Engineer",
       company: "Hylant",
-      companylogo: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Monroe%5FCommunity%5FCollege%5Fseal.svg",
+      companylogo: require("./assets/images/manOnTable.svg"),
       date: "February 2003 - February 2008",
       desc:
         "Led early-stage virtualization by migrating 100+ servers to VMware and managed core datacenter operations including SAN, networking, and Active Directory.",
@@ -301,7 +301,7 @@ const achievementSection = {
       title: "Leadership of Leaders",
       subtitle:
         "Led managers, supervisors, Manager II roles, engineers, analysts, architects, and multi-disciplinary technology teams across platform, cloud, DevOps, identity, security, onboarding, and operations.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Monroe%5FCommunity%5FCollege%5Fseal.svg",
+      image: require("./assets/images/manOnTable.svg"),
       imageAlt: "Leadership illustration",
       footerLink: []
     },
