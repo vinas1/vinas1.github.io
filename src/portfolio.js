@@ -21,6 +21,19 @@ import hadoopIcon from "./assets/icons/hadoop.svg";
 import etlIcon from "./assets/icons/etl.svg";
 import sparkIcon from "./assets/icons/spark.svg";
 
+// Image Assets
+import manOnTable from "./assets/images/manOnTable.svg";
+import developerActivity from "./assets/images/developerActivity.svg";
+import contactMailDark from "./assets/images/contactMailDark.svg";
+import mcccLogo from "./assets/images/mccc.png";
+import usafLogo from "./assets/images/USAF.png";
+import dteLogo from "./assets/images/DTE.png";
+import caLogo from "./assets/images/creditacceptance.png";
+import hylantLogo from "./assets/images/hylant.png";
+
+// profile image
+import profileimage from "./assets/images/profileavatar.png";
+
 const splashScreen = {
   enabled: true,
   animation: splashAnimation,
@@ -58,8 +71,7 @@ const skillsSection = {
     emoji("⚡ Build platform-as-a-product operating models with golden paths, automated guardrails, policy-as-code, and measurable delivery outcomes."),
     emoji("⚡ Modernize delivery pipelines using GitHub Actions, reusable workflows, ArgoCD, Terraform, Spacelift, Harness, Backstage, Port, and cloud-native patterns."),
     emoji("⚡ Drive cloud governance, FinOps cost optimization, DORA/SPACE metrics, SRE principles, and architectural standards as code."),
-    emoji("⚡ Lead leaders, managers, engineers, analysts, architects, and cross-functional technology teams through enterprise transformation."
-    )
+    emoji("⚡ Lead leaders, managers, engineers, analysts, architects, and cross-functional technology teams through enterprise transformation.")
   ],
   softwareSkills: [
     { skillName: "Platform Engineering", fontAwesomeClassname: "fas fa-layer-group" },
@@ -80,7 +92,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Monroe County Community College",
-      logo: require("./assets/images/mccc.png"),
+      logo: mcccLogo,
       subHeader: "Associate of Applied Science, Computer Information Systems focus",
       duration: "Education",
       desc: "Formal education foundation for a career spanning software, infrastructure, platform engineering, and technical leadership.",
@@ -88,7 +100,7 @@ const educationInfo = {
     },
     {
       schoolName: "United States Air Force",
-      logo: require("./assets/images/USAF.png"),
+      logo: usafLogo,
       subHeader: "Military and security training",
       duration: "Veteran of Operations Southern Watch and Desert Storm",
       desc: "Served as an Air Force TASO with specialized leadership training and mission-critical operations experience.",
@@ -123,7 +135,7 @@ const techStack = {
       { skillName: "Developer Portals", progressPercentage: "85%", imageUrl: nosqlIcon }
     ]
   },
-  displayCodersrank: false
+  displayCodersrank: true
 };
 
 const workExperiences = {
@@ -131,8 +143,8 @@ const workExperiences = {
   experience: [
     {
       role: "Sr Manager, Developer Platform & Tools | Enterprise Architecture & Strategy",
-       company: "DTE Energy",
-       companylogo: require("./assets/images/DTE.png"),
+      company: "DTE Energy",
+      companylogo: dteLogo,
       date: "November 2025 - Present",
       desc:
         "Leading the Developer Platform & Tools function in Enterprise Architecture & Strategy, unifying architecture, software platform engineering, cloud governance, developer tooling, and platform-as-a-product practices.",
@@ -146,8 +158,8 @@ const workExperiences = {
     },
     {
       role: "Senior Manager, Developer Platform | Platform Engineering",
-       company: "Credit Acceptance",
-       companylogo: require("./assets/images/creditacceptance.png"),
+      company: "Credit Acceptance",
+      companylogo: caLogo,
       date: "February 2023 - October 2025",
       desc:
         "FinTech technology leader accountable for managers, business analysts, and software engineers across Developer Experience, DevOps, and Cloud teams, with a 60/40 people leadership and technical execution focus.",
@@ -163,8 +175,8 @@ const workExperiences = {
     },
     {
       role: "Senior Manager, DevOps",
-       company: "Credit Acceptance",
-       companylogo: require("./assets/images/creditacceptance.png"),
+      company: "Credit Acceptance",
+      companylogo: caLogo,
       date: "July 2020 - February 2023",
       desc:
         "Senior leader over multiple leaders and 4-18 person teams across DBOps, Middleware, DevOps, Identity, IT Security, Helpdesk, and Onboarding, including a 14-month stabilization period during senior leadership transition.",
@@ -178,8 +190,8 @@ const workExperiences = {
     },
     {
       role: "Manager II - IT Operations",
-       company: "Credit Acceptance",
-       companylogo: require("./assets/images/creditacceptance.png"),
+      company: "Credit Acceptance",
+      companylogo: caLogo,
       date: "September 2018 - July 2020",
       desc:
         "Led leaders and improved operational health across infrastructure, identity, middleware, monitoring, logging, and DevOps capabilities.",
@@ -194,8 +206,8 @@ const workExperiences = {
     },
     {
       role: "Manager, Middleware Engineering and Support",
-       company: "Credit Acceptance",
-       companylogo: require("./assets/images/creditacceptance.png"),
+      company: "Credit Acceptance",
+      companylogo: caLogo,
       date: "February 2018 - September 2018",
       desc:
         "Led a team of 12 middleware support engineers and administrators responsible for 135 custom Java applications and message queuing systems in an Oracle Fusion Middleware environment.",
@@ -203,8 +215,8 @@ const workExperiences = {
     },
     {
       role: "IT Operations Supervisor | Infrastructure, Security & Support",
-       company: "Hylant Insurance",
-       companylogo: require("./assets/images/hylant.png"),
+      company: "Hylant Insurance",
+      companylogo: hylantLogo,
       date: "September 2015 - February 2018",
       desc:
         "Directed a multidisciplinary infrastructure team managing 15 locations and three datacenters with 99.99% uptime through cloud migration and SD-WAN deployment.",
@@ -215,8 +227,8 @@ const workExperiences = {
     },
     {
       role: "Senior Systems Engineer",
-       company: "Hylant",
-       companylogo: require("./assets/images/hylant.png"),
+      company: "Hylant",
+      companylogo: hylantLogo,
       date: "February 2008 - February 2015",
       desc:
         "Orchestrated enterprise infrastructure and DevOps automation using PowerShell and Playwright to optimize server clusters, VMware environments, and cloud scaling.",
@@ -224,8 +236,8 @@ const workExperiences = {
     },
     {
       role: "Systems Engineer",
-       company: "Hylant",
-       companylogo: require("./assets/images/hylant.png"),
+      company: "Hylant",
+      companylogo: hylantLogo,
       date: "February 2003 - February 2008",
       desc:
         "Led early-stage virtualization by migrating 100+ servers to VMware and managed core datacenter operations including SAN, networking, and Active Directory.",
@@ -233,8 +245,8 @@ const workExperiences = {
     },
     {
       role: "Direct Digital Controls Technician | Senior Airman",
-       company: "United States Air Force",
-       companylogo: require("./assets/images/USAF.png"),
+      company: "United States Air Force",
+      companylogo: usafLogo,
       date: "November 1997 - April 2002",
       desc:
         "Programmed mission-critical automation systems and managed high-level communications security while serving in multiple overseas operations.",
@@ -244,8 +256,8 @@ const workExperiences = {
 };
 
 const openSource = {
-  showGithubProfile: "false",
-  display: false
+  showGithubProfile: true,
+  display: true
 };
 
 const bigProjects = {
@@ -301,7 +313,7 @@ const achievementSection = {
       title: "Leadership of Leaders",
       subtitle:
         "Led managers, supervisors, Manager II roles, engineers, analysts, architects, and multi-disciplinary technology teams across platform, cloud, DevOps, identity, security, onboarding, and operations.",
-      image: require("./assets/images/manOnTable.svg"),
+      image: manOnTable,
       imageAlt: "Leadership illustration",
       footerLink: []
     },
@@ -309,7 +321,7 @@ const achievementSection = {
       title: "Platform-Led Transformation",
       subtitle:
         "Shifted traditional architecture and delivery models toward platform-as-a-product, self-service paths, golden paths, automated guardrails, and developer velocity.",
-      image: require("./assets/images/developerActivity.svg"),
+      image: developerActivity,
       imageAlt: "Platform engineering illustration",
       footerLink: []
     },
@@ -317,7 +329,7 @@ const achievementSection = {
       title: "Enterprise Modernization",
       subtitle:
         "Delivered modernization across cloud, CI/CD, identity, observability, DevOps, middleware, infrastructure, automation, and enterprise developer tooling.",
-      image: require("./assets/images/contactMailDark.svg"),
+      image: contactMailDark,
       imageAlt: "Modernization illustration",
       footerLink: []
     }
@@ -333,7 +345,7 @@ const contactInfo = {
   email_address: "nospam@message_me_on_linkedin.com",
 };
 
-const isHireable = false;
+const isHireable = true;
 
 export {
   illustration,

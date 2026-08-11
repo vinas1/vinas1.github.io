@@ -12,9 +12,10 @@
   margin-top: 2rem;
 }
 
+/* FIX: Stop forced flex expansion on direct children */
 .education-section > * {
-  flex: 1;
-  margin-bottom: 30px;
+  flex: 0 0 auto; /* Keeps elements sized to their natural content height */
+  margin-bottom: 10px;
 }
 
 .education-card-container {
