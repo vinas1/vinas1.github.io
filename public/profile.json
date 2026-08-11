@@ -1,0 +1,113 @@
+{
+    "data": {
+      "user": {
+        "name": "Josh Davis",
+        "bio": "I am a Sr Technical leader and US Air Force Veteran with over 20 years of experience in TechOps and Software Platform Engineering. I currently serve as a Manager within Enterprise Architecture & Strategy at DTE Energy, leading the Developer Platform (DevPlat) & Tools organization.\n\nMy work is defined by a 'Platform-as-a-Product' philosophy, where I focus on transforming enterprise IT into cloud-first, platform-as-code-driven digital enterprises. I specialize in:\n- Building secure, scalable developer platforms and 'Golden Paths'\n- Driving cloud governance, FinOps cost optimization, and architectural standards\n- Modernizing engineering workflows using GitHub, ArgoCD, and Terraform\n- Enabling AI-powered engineering and developer productivity\n- Leveraging DORA & SPACE metrics to drive measurable KPIs (Lead Time, Deployment Frequency, Change Fail Rate)\n\nI am passionate about reducing operational toil through SRE principles and establishing enterprise-wide engineering best practices that make the right thing the easy thing.",
+        "avatarUrl": "/static/media/1720828341711.jfif",
+        "location": "Carleton, MI",
+        "pinnedItems": {
+          "totalCount": 7,
+          "edges": [
+            {
+                "node": {
+                  "name": "Developer Platform & Tools",
+                  "description": "Leading the DevPlat & Tools organization to enable developers.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill1",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Engineering Standards & Governance",
+                  "description": "Driving standards and governance processes for engineering teams.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill2", 
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Cloud Governance & FinOps",
+                  "description": "Driving cloud governance and FinOps cost optimization.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill3",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "AI-Powered Engineering",
+                  "description": "Enabling AI-powered engineering capabilities.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill4",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Productivity & Onboarding",
+                  "description": "Improving onboarding and developer productivity.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill5",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Workflow Automation",
+                  "description": "Reducing operational toil through automation.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill6",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              },
+              {
+                "node": {
+                  "name": "Platform-as-a-Product & SRE",
+                  "description": "Driving engineering best practices through SRE principles and the Platform-as-a-Product model.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://www.linkedin.com/in/josh-davis101/",
+                  "id": "Skill7",
+                  "diskUsage": 0,
+                  "primaryLanguage": null
+                }
+              }
+        ]
+        }
+      }
+    }
+  }
