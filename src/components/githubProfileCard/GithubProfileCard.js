@@ -52,7 +52,7 @@ export default function GithubProfileCard({prof}) {
           </div>
           <div className="image-content-profile">
             <img
-              src={prof.avatarUrl}
+              src={prof.avatarUrl?.default || prof.avatarUrl}
               alt={prof.name}
               className="profileimage"
             />

@@ -20,7 +20,6 @@ export default function StackProgress() {
                   <h2 className="category-title">{category}</h2>
                   {skills.map((skill, i) => (
                     <div key={i} className="skill">
-                      <img src={skill.imageUrl} alt={skill.skillName} className="skill-icon" />
                       <p className="skill-name">{skill.skillName}</p>
                       <div className="meter">
                         <span style={{ width: skill.progressPercentage }} className="meter-bar"></span>
