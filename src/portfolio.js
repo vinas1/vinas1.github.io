@@ -1,4 +1,4 @@
-/* Josh Davis portfolio content generated from Joshua L Davis resume v7.4.pdf */
+// Josh Davis portfolio 
 // To change portfolio colors globally go to the _globalColor.scss file.
 
 import emoji from "react-easy-emoji";
