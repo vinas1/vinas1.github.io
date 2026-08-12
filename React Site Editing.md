@@ -76,11 +76,16 @@ Do not:
 
 After editing:
 
+Requirement:
+npm install gh-pages --save-dev
+make sure package.json is set to deploy to the right branch like "deploy": "gh-pages -d build"
+
 ```bash
 git status
 git diff
 npm run build # Verify build passes locally before committing
 npm start # Test the site locally
+npm run deploy # deploy the changes to the gh-pages repo for the github pipeline to deploy
 ```
 
 The production build must succeed before committing.
