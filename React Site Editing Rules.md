@@ -79,7 +79,8 @@ After editing:
 ```bash
 git status
 git diff
-npm run build
+npm run build # Verify build passes locally before committing
+npm start # Test the site locally
 ```
 
 The production build must succeed before committing.
@@ -98,8 +99,11 @@ Do not work around build errors by editing generated `build/` files.
 Before committing:
 
 ```bash
-git status
+git status                            # Confirm only intended source files are staged[cite: 2]
 git diff
+git commit -m "Add profile images and fix section paths"
+git push origin main                  # Push source code to GitHub[cite: 2]
+npm run deploy                       # Run your deployment script (if using gh-pages package)
 ```
 
 Confirm:
