@@ -30,9 +30,18 @@ import usafLogo from "./assets/images/USAF.png";
 import dteLogo from "./assets/images/DTE.png";
 import caLogo from "./assets/images/creditacceptance.png";
 import hylantLogo from "./assets/images/hylant.png";
+import profileImage from "./assets/images/profileavatar.png"; // camelCase variable
 
-// profile image
-import profileimage from "./assets/images/profileavatar.png";
+const greeting = {
+  username: "Josh Davis",
+  title: "Josh Davis | Senior Manager, Developer Platform",
+  subTitle: emoji(
+    "Technical leader focused on Software Platform Engineering, DevEx, enterprise architecture, and platform-as-a-product transformation."
+  ),
+  resumeLink: "",
+  profileImage: profileImage, // <--- Attach here so Webpack processes the asset
+  displayGreeting: true
+};
 
 const splashScreen = {
   enabled: true,
