@@ -99,11 +99,11 @@ Do not work around build errors by editing generated `build/` files.
 Before committing:
 
 ```bash
-git status                            # Confirm only intended source files are staged[cite: 2]
-git diff
-git commit -m "Add profile images and fix section paths"
-git push origin main                  # Push source code to GitHub[cite: 2]
-npm run deploy                       # Run your deployment script (if using gh-pages package)
+npm run build
+git add src/portfolio.js
+git commit -m "Fix profile image bundling and casing"
+git push origin main
+npm run deploy                      # Run your deployment script (if using gh-pages package)
 ```
 
 Confirm:
