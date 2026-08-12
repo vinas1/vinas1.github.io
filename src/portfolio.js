@@ -32,17 +32,6 @@ import caLogo from "./assets/images/creditacceptance.png";
 import hylantLogo from "./assets/images/hylant.png";
 import profileImage from "./assets/images/profileavatar.png"; // camelCase variable
 
-const greeting = {
-  username: "Josh Davis",
-  title: "Josh Davis | Senior Manager, Developer Platform",
-  subTitle: emoji(
-    "Technical leader focused on Software Platform Engineering, DevEx, enterprise architecture, and platform-as-a-product transformation."
-  ),
-  resumeLink: "",
-  profileImage: profileImage, // <--- Attach here so Webpack processes the asset
-  displayGreeting: true
-};
-
 const splashScreen = {
   enabled: true,
   animation: splashAnimation,
@@ -57,9 +46,10 @@ const greeting = {
   username: "Josh Davis",
   title: "Josh Davis | Senior Manager, Developer Platform",
   subTitle: emoji(
-    "Technical leader focused on Software Platform Engineering, DevEx, enterprise architecture, and platform-as-a-product transformation. I lead software platform engineers in Enterprise Architecture, building cloud-first, platform-as-code digital enterprises with paved paths, automated guardrails, observability, and low-toil developer workflows."
+    "Technical leader focused on Software Platform Engineering, DevEx, enterprise architecture, and platform-as-a-product transformation."
   ),
   resumeLink: "",
+  profileImage: profileImage, // <--- Attach here so Webpack processes the asset
   displayGreeting: true
 };
 
