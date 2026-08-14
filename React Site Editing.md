@@ -2,8 +2,8 @@
 
 We are modifying the React site `vinas1.github.io`.
 
-## Core Rule
-Be terse. Do not overthink. Use searXNG mcp to do a search, use the broswer to make sure vinas1.github.io looks right.
+## Core AI Rules
+Be terse. Do not overthink. Use searXNG mcp to do a search, use the broswer to ensure vinas1.github.io looks right on local http://localhost:3000/ before pushing to prod. Use npm start for that.
 
 ### Files/directories to EDIT
 
@@ -104,8 +104,7 @@ Before committing:
 
 ```bash
 npm run build
-npm start # check the local version of the site at http://localhost:3030
-npm run deploy                      # Run your deployment script
+npm start # test the local version of the site at http://localhost:3000/
 ```
 
 Confirm:
@@ -128,3 +127,52 @@ git push
 **Do not use `git add .` unless you have first inspected `git status` and confirmed every changed file belongs in the commit.**
 
 **Never treat `build/` as source code. `npm run build` generates it.**
+
+## Prod deployment
+
+The production deployment is configured in packages.json.
+
+Here's the step-by-step deployment guide.
+
+---
+
+## 1. Verify `package.json` Configuration
+
+Ensure your `package.json` has the target branch set to `gh-pages` inside `"scripts"`:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "start": "node fetch.js && react-scripts start",
+  "build": "node fetch.js && react-scripts build",
+  "deploy": "gh-pages -d build -b gh-pages"
+}
+
+```
+
+---
+
+## 2. Push Changes & Deploy
+
+This command triggers the two-step the deployment, enter this into your project terminal:
+
+```bash
+npm run deploy
+
+```
+
+> **Note:** This automatically runs `npm run build` first, creates/updates the `gh-pages` branch, and pushes the production bundle to GitHub using the below pipeline.
+
+---
+
+## 3. GitHub Pages Settings (Done - One-Time Setup)
+
+Linkage - GitHub Pages - build branch.
+
+1. Go to your repository on GitHub.
+2. Navigate to **Settings** > **Pages** (under *Code and automation*).
+3. Under **Build and deployment**:
+* **Source**: `Deploy from a branch`
+* **Branch**: Select `gh-pages` and `/ (root)`
+
+4. Click **Save**.
