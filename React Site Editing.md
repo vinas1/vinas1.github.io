@@ -1,10 +1,9 @@
-# React Site Editing Rules
+# React Site Editing Tip Sheet
 
-You are modifying the React site `vinas1.github.io`.
+We are modifying the React site `vinas1.github.io`.
 
 ## Core Rule
-
-**Do not blindly edit files. First locate where the requested change belongs, then modify only the appropriate source files.**
+Be terse. Do not overthink. Use searXNG mcp to do a search, use the broswer to make sure vinas1.github.io looks right.
 
 ### Files/directories to EDIT
 
@@ -78,7 +77,7 @@ After editing:
 
 Requirement:
 npm install gh-pages --save-dev
-make sure package.json is set to deploy to the right branch like "deploy": "gh-pages -d build"
+package.json is set to deploy to the gh-pages branch using "deploy": "gh-pages -d build"
 
 ```bash
 git status
@@ -105,10 +104,8 @@ Before committing:
 
 ```bash
 npm run build
-git add src/portfolio.js
-git commit -m "Fix profile image bundling and casing"
-git push origin main
-npm run deploy                      # Run your deployment script (if using gh-pages package)
+npm start # check the local version of the site at http://localhost:3030
+npm run deploy                      # Run your deployment script
 ```
 
 Confirm:
@@ -129,25 +126,5 @@ git push
 ```
 
 **Do not use `git add .` unless you have first inspected `git status` and confirmed every changed file belongs in the commit.**
-
-## Important Mental Model
-
-```text
-USER REQUEST
-    ↓
-SEARCH / MAP EXISTING IMPLEMENTATION
-    ↓
-IDENTIFY CORRECT SOURCE FILE
-    ↓
-EDIT ONLY SOURCE
-    ↓
-npm run build
-    ↓
-INSPECT git diff
-    ↓
-COMMIT ONLY INTENDED FILES
-    ↓
-git push
-```
 
 **Never treat `build/` as source code. `npm run build` generates it.**
