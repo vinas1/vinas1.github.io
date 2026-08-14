@@ -6,107 +6,79 @@
         "avatarUrl": "/static/media/1720828341711.jfif",
         "location": "Carleton, MI",
         "pinnedItems": {
-          "totalCount": 7,
+          "totalCount": 5,
           "edges": [
             {
                 "node": {
-                  "name": "Developer Platform & Tools",
-                  "description": "Leading the DevPlat & Tools organization to enable developers.",
+                  "name": "teams-xscripts",
+                  "description": "Chromium based transcripts for use with Microsoft Teams web.",
                   "forkCount": 0,
                   "stargazers": {
                     "totalCount": 0
                   },
-                  "url": "https://www.linkedin.com/in/josh-davis101/",
-                  "id": "Skill1",
+                  "url": "https://github.com/vinas1/teams-xscripts",
+                  "id": "repo1",
                   "diskUsage": 0,
-                  "primaryLanguage": null
+                  "primaryLanguage": "JavaScript"
                 }
               },
               {
                 "node": {
-                  "name": "Engineering Standards & Governance",
-                  "description": "Driving standards and governance processes for engineering teams.",
+                  "name": "LMStudio",
+                  "description": "Scripts to bootstrap headless local LLM running on a minimal Debian box.",
                   "forkCount": 0,
                   "stargazers": {
                     "totalCount": 0
                   },
-                  "url": "https://www.linkedin.com/in/josh-davis101/",
-                  "id": "Skill2", 
+                  "url": "https://github.com/vinas1/LMStudio",
+                  "id": "repo2",
                   "diskUsage": 0,
-                  "primaryLanguage": null
+                  "primaryLanguage": "Shell"
                 }
               },
               {
                 "node": {
-                  "name": "Cloud Governance & FinOps",
-                  "description": "Driving cloud governance and FinOps cost optimization.",
+                  "name": "vibecode",
+                  "description": "A local LLM based vibe coding setup that enables the use of unlimited tokens.",
                   "forkCount": 0,
                   "stargazers": {
                     "totalCount": 0
                   },
-                  "url": "https://www.linkedin.com/in/josh-davis101/",
-                  "id": "Skill3",
+                  "url": "https://github.com/vinas1/vibecode",
+                  "id": "repo3",
                   "diskUsage": 0,
-                  "primaryLanguage": null
+                  "primaryLanguage": "JavaScript"
                 }
               },
               {
                 "node": {
-                  "name": "AI-Powered Engineering",
-                  "description": "Enabling AI-powered engineering capabilities.",
+                  "name": "solar-microservice",
+                  "description": "Arduino C++ and python Restful API microservice endpoint for Renogy Bluetooth stack using ESP32S3.",
                   "forkCount": 0,
                   "stargazers": {
                     "totalCount": 0
                   },
-                  "url": "https://www.linkedin.com/in/josh-davis101/",
-                  "id": "Skill4",
+                  "url": "https://github.com/vinas1/solar-microservice",
+                  "id": "repo4",
                   "diskUsage": 0,
-                  "primaryLanguage": null
+                  "primaryLanguage": "C++"
                 }
               },
               {
                 "node": {
-                  "name": "Developer Productivity & Onboarding",
-                  "description": "Improving onboarding and developer productivity.",
+                  "name": "mcp-searxng",
+                  "description": "Privacy-respecting web search for AI assistants. A USA-built and verified fork of SearXNG.",
                   "forkCount": 0,
                   "stargazers": {
                     "totalCount": 0
                   },
-                  "url": "https://www.linkedin.com/in/josh-davis101/",
-                  "id": "Skill5",
+                  "url": "https://github.com/vinas1/mcp-searxng",
+                  "id": "repo5",
                   "diskUsage": 0,
-                  "primaryLanguage": null
-                }
-              },
-              {
-                "node": {
-                  "name": "Workflow Automation",
-                  "description": "Reducing operational toil through automation.",
-                  "forkCount": 0,
-                  "stargazers": {
-                    "totalCount": 0
-                  },
-                  "url": "https://www.linkedin.com/in/josh-davis101/",
-                  "id": "Skill6",
-                  "diskUsage": 0,
-                  "primaryLanguage": null
-                }
-              },
-              {
-                "node": {
-                  "name": "Platform-as-a-Product & SRE",
-                  "description": "Driving engineering best practices through SRE principles and the Platform-as-a-Product model.",
-                  "forkCount": 0,
-                  "stargazers": {
-                    "totalCount": 0
-                  },
-                  "url": "https://www.linkedin.com/in/josh-davis101/",
-                  "id": "Skill7",
-                  "diskUsage": 0,
-                  "primaryLanguage": null
+                  "primaryLanguage": "TypeScript"
                 }
               }
-        ]
+          ]
         }
       }
     }
