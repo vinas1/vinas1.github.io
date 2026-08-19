@@ -44,9 +44,9 @@ const illustration = {
 
 const greeting = {
   username: "Josh Davis",
-  title: "Josh Davis | Senior Manager, Developer Platform",
+  title: "Josh Davis | Technology Leadership · Platform Engineering · Developer Experience",
   subTitle: emoji(
-    "Technical leader focused on Software Platform Engineering, DevEx, enterprise architecture, and platform-as-a-product transformation."
+    "I lead developer platform, cloud governance, and AI engineering initiatives focused on reducing toil, simplifying software delivery, and creating secure paths from idea to production."
   ),
   resumeLink: "",
   profileImage: profileImage, // <--- Attach here so Webpack processes the asset
@@ -68,7 +68,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Lead Developer Platform and Tools teams focused on DevEx, multi-cloud platform automation, and self-service delivery."),
     emoji("⚡ Build platform-as-a-product operating models with golden paths, automated guardrails, policy-as-code, and measurable delivery outcomes."),
-    emoji("⚡ Modernize delivery pipelines using GitHub Actions, reusable workflows, ArgoCD, Terraform, Spacelift, Harness, Backstage, Port, and cloud-native patterns."),
+    emoji("⚡ Modernize delivery pipelines using ArgoCD and GitOps, GitHub Actions, reusable workflows, Harness, Backstage, Port, and cloud-native patterns."),
     emoji("⚡ Drive cloud governance, FinOps cost optimization, DORA/SPACE metrics, SRE principles, and architectural standards as code."),
     emoji("⚡ Lead leaders, managers, engineers, analysts, architects, and cross-functional technology teams through enterprise transformation.")
   ],
@@ -121,17 +121,17 @@ const techStack = {
     "Cloud, Governance, and Delivery": [
       { skillName: "Cloud Governance", progressPercentage: "95%", imageUrl: awsIcon },
       { skillName: "FinOps", progressPercentage: "85%", imageUrl: sqlIcon },
-      { skillName: "Terraform and Spacelift", progressPercentage: "90%", imageUrl: terraformIcon },
-      { skillName: "Automation Guardrails", progressPercentage: "90%", imageUrl: ansibleIcon }
+      { skillName: "GitOps and ArgoCD", progressPercentage: "90%", imageUrl: kubernetesIcon },
+      { skillName: "AI and Automation", progressPercentage: "90%", imageUrl: ansibleIcon }
     ],
     "Engineering Enablement": [
-      { skillName: "GitHub Actions", progressPercentage: "95%", imageUrl: kafkaIcon },
+      { skillName: "GitHub Actions", progressPercentage: "99%", imageUrl: kafkaIcon },
       { skillName: "API Microservices", progressPercentage: "90%", imageUrl: javaIcon },
       { skillName: "Python and FastAPI", progressPercentage: "85%", imageUrl: pythonIcon },
-      { skillName: "Data and Observability", progressPercentage: "85%", imageUrl: etlIcon },
+      { skillName: "SRE and Observability", progressPercentage: "85%", imageUrl: etlIcon },
       { skillName: "Enterprise Modernization", progressPercentage: "90%", imageUrl: sparkIcon },
       { skillName: "Cloud Native Patterns", progressPercentage: "90%", imageUrl: hadoopIcon },
-      { skillName: "Developer Portals", progressPercentage: "85%", imageUrl: nosqlIcon }
+      { skillName: "Developer Portals", progressPercentage: "95%", imageUrl: nosqlIcon }
     ]
   },
   displayCodersrank: true
@@ -169,7 +169,7 @@ const workExperiences = {
         "Led the rapid implementation of an internal developer portal and platform-as-a-product concepts.",
         "Led Senior and Staff Engineers in implementing static code analysis pipelines, improving code quality and code security for software engineers.",
         "Wrote Python automation for platform backend services with FastAPI and OpenAPI-driven endpoint documentation.",
-        "Proposed GitOps concepts to executives and led reusable workflow modernization using Kubernetes, ArgoCD, Terraform, and Spacelift."
+        "Proposed GitOps concepts to executives and led reusable workflow modernization using Kubernetes, ArgoCD, and GitOps best practices to enhance platform reliability."
       ]
     },
     {
@@ -260,44 +260,32 @@ const openSource = {
 };
 
 const bigProjects = {
-  title: "Strategic Impact",
+  title: "Selected Initiatives",
   subtitle: "A portfolio view of the platform, architecture, and transformation work behind the experience.",
   projects: [
     {
       projectName: "Developer Platform & Tools",
       projectDesc:
-        "Leading a unified Developer Platform & Tools organization focused on self-service developer workflows, internal developer platform strategy, and reduced delivery friction.",
-      footerLink: [{ name: "Connect on LinkedIn", url: "https://www.linkedin.com/in/josh-davis101/" }]
+        "Unifying platform engineering, developer enablement, automation, and standards around a clearer platform ownership model.",
+      footerLink: [{ name: "Explore the Initiative", url: "#" }]
     },
     {
-      projectName: "Platform as a Product",
+      projectName: "AIRIC",
       projectDesc:
-        "Modernizing the relationship between architecture and engineering by shifting governance into platform capabilities, reusable APIs, golden paths, and automated guardrails.",
-      footerLink: []
+        "An internal AI-assisted review capability designed to help engineers identify important areas in infrastructure and source-code changes while maintaining human accountability.",
+      footerLink: [{ name: "Read the Case Study", url: "#" }]
     },
     {
-      projectName: "Cloud Governance and FinOps",
+      projectName: "Developer Platform Portal",
       projectDesc:
-        "Chairing cloud governance and driving standards, cost optimization, reusable automation, and cloud-native delivery patterns across enterprise teams.",
-      footerLink: []
+        "A centralized entry point that helps engineers find onboarding guidance, approved delivery paths, standards, AI tooling, platform products, and support resources.",
+      footerLink: [{ name: "Explore the Initiative", url: "#" }]
     },
     {
-      projectName: "Developer Expressway",
+      projectName: "Cloud Governance Transformation",
       projectDesc:
-        "Stood up platform capabilities that improved change lead time from days to minutes and helped stabilize software releases.",
-      footerLink: []
-    },
-    {
-      projectName: "GitOps and CI/CD Modernization",
-      projectDesc:
-        "Led reusable workflow modernization using Kubernetes, ArgoCD, Terraform, Spacelift, GitHub Actions, and cloud-based ephemeral environments.",
-      footerLink: []
-    },
-    {
-      projectName: "Enterprise Identity Modernization",
-      projectDesc:
-        "Led migration of 90,000 users from on-prem ForgeRock to Azure AD and Azure B2C for modern IAM and SSO.",
-      footerLink: []
+        "A federated cloud governance effort focused on enabling secure, compliant, scalable cloud adoption through shared standards, clear ownership, and increasingly automated controls.",
+      footerLink: [{ name: "See the Approach", url: "#" }]
     }
   ],
   display: true
@@ -339,7 +327,7 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Connect with me about platform engineering, developer experience, cloud governance, enterprise architecture, or platform-as-a-product transformation.",
+    "Let’s talk about platforms, engineering systems, AI, or technology leadership.",
   number: "",
   email_address: "nospam@message_me_on_linkedin.com",
 };
