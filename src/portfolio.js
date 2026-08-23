@@ -27,6 +27,7 @@ import developerActivity from "./assets/images/developerActivity.svg";
 import contactMailDark from "./assets/images/contactMailDark.svg";
 import mcccLogo from "./assets/images/mccc.png";
 import usafLogo from "./assets/images/USAF.png";
+import xkLogo from "./assets/images/xk.jpg";
 import dteLogo from "./assets/images/DTE.png";
 import caLogo from "./assets/images/creditacceptance.png";
 import hylantLogo from "./assets/images/hylant.png";
@@ -141,7 +142,7 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Sr Manager, Developer Platform & Tools | Enterprise Architecture & Strategy",
+      role: "Sr Manager, Developer Platform | Enterprise Architecture & Strategy",
       company: "DTE Energy",
       companylogo: dteLogo,
       date: "November 2025 - Present",
@@ -250,6 +251,15 @@ const workExperiences = {
       desc:
         "Programmed mission-critical automation systems and managed high-level communications security while serving in multiple overseas operations.",
       descBullets: []
+    },
+      {
+      role: "Software Engineer",
+      company: "XKrew Multimedia",
+      companylogo: xkLogo,
+      date: "January 1999 - April 2003",
+      desc:
+        "Developed and maintained backend web applications, DVD multimedia content, and messaging services for clients in various industries, utilizing a range of programming languages and technologies.",
+      descBullets: []
     }
   ]
 };
@@ -273,7 +283,7 @@ const bigProjects = {
       projectName: "AIRIC",
       projectDesc:
         "An internal AI-assisted review capability designed to help engineers identify important areas in infrastructure and source-code changes while maintaining human accountability.",
-      footerLink: [{ name: "Read the Case Study", url: "#" }]
+      footerLink: [{ name: "Read the Case Study", url: "https://github.com/vinas1/docs/blob/main/case-studies/AIRIC_Case_Study.md" }]
     },
     {
       projectName: "Developer Platform Portal",
