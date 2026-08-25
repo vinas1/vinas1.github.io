@@ -283,7 +283,7 @@ const bigProjects = {
       projectName: "AIRIC",
       projectDesc:
         "An internal AI-assisted review capability designed to help engineers identify important areas in infrastructure and source-code changes while maintaining human accountability.",
-      footerLink: [{ name: "Read the Case Study", url: "https://github.com/vinas1/docs/blob/main/case-studies/AIRIC_Case_Study.md" }]
+      footerLink: [{ name: "Read the Case Study", url: "https://github.com/vinas1/docs/blob/3f81da8a10ae423d7af8e9e45038c7bcb6799a82/case-studies/AIRIC_Case_Study.md" }]
     },
     {
       projectName: "Developer Platform Portal",
