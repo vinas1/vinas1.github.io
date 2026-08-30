@@ -50,7 +50,7 @@
                   "primaryLanguage": "JavaScript"
                 }
               },
-              {
+                            {
                 "node": {
                   "name": "solar-microservice",
                   "description": "Arduino C++ and python Restful API microservice endpoint for Renogy Bluetooth stack using ESP32S3.",
@@ -66,6 +66,20 @@
               },
               {
                 "node": {
+                  "name": "rocm",
+                  "description": "Native llama.cpp build optimized for AMD Strix Halo APUs (gfx1151), bringing ROCm acceleration and feature parity on Linux to NVIDIA CUDA and Apple Silicon setups in LM Studio via a custom llama.cpp engine.",
+                  "forkCount": 0,
+                  "stargazers": {
+                    "totalCount": 0
+                  },
+                  "url": "https://github.com/vinas1/llama-rocm",
+                  "id": "repo5",
+                  "diskUsage": 0,
+                  "primaryLanguage": "bash"
+                }
+              },
+              {
+                "node": {
                   "name": "mcp-searxng",
                   "description": "Privacy-respecting web search for AI assistants. A USA-built and verified fork of SearXNG.",
                   "forkCount": 0,
@@ -73,7 +87,7 @@
                     "totalCount": 0
                   },
                   "url": "https://github.com/vinas1/mcp-searxng",
-                  "id": "repo5",
+                  "id": "repo6",
                   "diskUsage": 0,
                   "primaryLanguage": "TypeScript"
                 }
