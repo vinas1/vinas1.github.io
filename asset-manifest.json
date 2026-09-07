@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.18caa270.css",
-    "main.js": "/static/js/main.e7ba2fca.js",
+    "main.css": "/static/css/main.7ed19720.css",
+    "main.js": "/static/js/main.d8ca9aa0.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
-    "static/js/487.39501426.chunk.js": "/static/js/487.39501426.chunk.js",
+    "static/js/487.debb2f97.chunk.js": "/static/js/487.debb2f97.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
-    "static/js/990.32abaa18.chunk.js": "/static/js/990.32abaa18.chunk.js",
+    "static/js/990.3563c5e2.chunk.js": "/static/js/990.3563c5e2.chunk.js",
     "static/media/profileavatar.png": "/static/media/profileavatar.46c98eece81887c70a83.png",
     "static/media/xk.jpg": "/static/media/xk.c3fc887533b88277f2e1.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/gDocs-CodeBlocks220.png": "/static/media/gDocs-CodeBlocks220.d839e88415db2f232b28.png",
+    "static/media/gDocs-CodeBlocks-SS.JPG": "/static/media/gDocs-CodeBlocks-SS.e4386c28f23be9c37a31.JPG",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/gDocs-CodeBlocks128.png": "/static/media/gDocs-CodeBlocks128.63ae7d52b7126c3db888.png",
+    "static/media/gDocs-CodeBlocks96.png": "/static/media/gDocs-CodeBlocks96.79a0e5648127e30f7c1d.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/gDocs-CodeBlocks48.png": "/static/media/gDocs-CodeBlocks48.0ebaa549f0aadf2a5725.png",
+    "static/media/gDocs-CodeBlocks32.png": "/static/media/gDocs-CodeBlocks32.8edb3cf55eb5c3536a01.png",
     "static/media/USAF.png": "/static/media/USAF.544f04e2e76a5da6f1a8.png",
     "static/media/hadoop.svg": "/static/media/hadoop.36465904901d1750be3b216650103273.svg",
     "static/media/etl.svg": "/static/media/etl.bac520430ec679c319e3fca22763aef8.svg",
@@ -31,15 +37,15 @@
     "static/media/java.svg": "/static/media/java.a6e4d40e437ca48833761bf124cb5f7a.svg",
     "static/media/docker.svg": "/static/media/docker.0e98a7cc3dcc1f806d88df1ba58d2d2b.svg",
     "static/media/terraform.svg": "/static/media/terraform.81954a66211c272d297d84146c15f02c.svg",
-    "main.18caa270.css.map": "/static/css/main.18caa270.css.map",
-    "main.e7ba2fca.js.map": "/static/js/main.e7ba2fca.js.map",
+    "main.7ed19720.css.map": "/static/css/main.7ed19720.css.map",
+    "main.d8ca9aa0.js.map": "/static/js/main.d8ca9aa0.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
-    "487.39501426.chunk.js.map": "/static/js/487.39501426.chunk.js.map",
+    "487.debb2f97.chunk.js.map": "/static/js/487.debb2f97.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
-    "990.32abaa18.chunk.js.map": "/static/js/990.32abaa18.chunk.js.map"
+    "990.3563c5e2.chunk.js.map": "/static/js/990.3563c5e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18caa270.css",
-    "static/js/main.e7ba2fca.js"
+    "static/css/main.7ed19720.css",
+    "static/js/main.d8ca9aa0.js"
   ]
 }
