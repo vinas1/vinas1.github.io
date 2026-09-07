@@ -1,0 +1,159 @@
+/* Shared styles for /docs-codeblocks, /privacy, and /terms pages */
+
+.pages-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.pages-content {
+  max-width: 800px;
+  width: 100%;
+  line-height: 1.7;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  p, li {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+  }
+
+  a {
+    color: #2563eb;
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  code {
+    background-color: #f3f4f6;
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  pre {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+
+    code {
+      background: none;
+      padding: 0;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+.pages-error {
+  color: #b91c1c;
+  background-color: #fef2f2;
+  border-left: 4px solid #b91c1c;
+  padding: 0.75rem 1rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.pages-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.pages-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+
+  a {
+    color: #2563eb;
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}
+
+.footer-separator {
+  color: #9ca3af;
+}
+
+/* Hero section */
+.docs-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.docs-hero-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 24px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.docs-tagline {
+  font-size: 1.15rem;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+/* Screenshot */
+.docs-screenshot {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+/* Icon grid */
+.docs-favicons {
+  text-align: center;
+}
+
+.docs-icon-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.docs-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  span {
+    font-size: 0.8rem;
+    color: #9ca3af;
+  }
+}

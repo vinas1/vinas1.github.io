@@ -1,11 +1,14 @@
 import React, { useEffect } from "react";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import "./App.scss";
 import Main from "./containers/Main";
-import ReactGA from 'react-ga4';
+import DocsCodeblocks from "./pages/DocsCodeblocks";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import ReactGA from "react-ga4";
 
 function App() {
   useEffect(() => {
-    // Ensure the measurement ID is set in your .env file as REACT_APP_GA_MEASUREMENT_ID
     const measurementId = process.env.REACT_APP_GA_MEASUREMENT_ID;
     if (measurementId) {
       ReactGA.initialize(measurementId);
@@ -14,9 +17,15 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <Main />
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/docs-codeblocks" component={DocsCodeblocks} />
+        <Route path="/privacy" component={Privacy} />
+        <Route path="/terms" component={Terms} />
+        <Route exact path="/" component={Main} />
+        <Redirect from="*" to="/" />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
