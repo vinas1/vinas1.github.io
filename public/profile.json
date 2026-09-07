@@ -24,16 +24,16 @@
               },
               {
                 "node": {
-                  "name": "LMStudio",
-                  "description": "Scripts to bootstrap headless local LLM running on a minimal Debian box.",
+                  "name": "gdocs-codeblocks",
+                  "description": "Syntax highlight your Google Docs without any risky 3rd party extensions. A self-owned Google Apps Script add-on that formats code blocks with language-aware syntax highlighting.",
                   "forkCount": 0,
                   "stargazers": {
                     "totalCount": 0
                   },
-                  "url": "https://github.com/vinas1/LMStudio",
+                  "url": "https://github.com/vinas1/gdocs-codeblocks",
                   "id": "repo2",
                   "diskUsage": 0,
-                  "primaryLanguage": "Shell"
+                  "primaryLanguage": "JavaScript"
                 }
               },
               {

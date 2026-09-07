@@ -47,7 +47,7 @@ Only modify `package.json` when a dependency or npm script genuinely needs to ch
 
 Useful searches:
 
-```bash
+```
 grep -Rni "search text" src
 grep -Rni "footer" src
 grep -Rni "assets/images" src
@@ -79,7 +79,7 @@ Requirement:
 npm install gh-pages --save-dev
 package.json is set to deploy to the gh-pages branch using "deploy": "gh-pages -d build"
 
-```bash
+```
 git status
 git diff
 npm run build # Verify build passes locally before committing
@@ -102,7 +102,7 @@ Do not work around build errors by editing generated `build/` files.
 
 Before committing:
 
-```bash
+```
 npm run build
 npm start # test the local version of the site at http://localhost:3000/
 ```
@@ -156,9 +156,8 @@ Ensure your `package.json` has the target branch set to `gh-pages` inside `"scri
 
 This command triggers the two-step the deployment, enter this into your project terminal:
 
-```bash
+```
 npm run deploy
-
 ```
 
 > **Note:** This automatically runs `npm run build` first, creates/updates the `gh-pages` branch, and pushes the production bundle to GitHub using the below pipeline.
